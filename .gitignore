@@ -1,0 +1,30 @@
+# Arquivos de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Dados pesados
+*.csv
+*.xlsx
+*.json
+*.h5
+*.hdf5
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pastas de scripts temporários
+*.tmp

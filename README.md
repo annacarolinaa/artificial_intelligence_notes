@@ -1,49 +1,23 @@
-# 📊 Mis Reportes de Inteligencia Artificial 
+# 📊 Mis Reportes de Inteligencia Artificial
 
-Este repositorio reúne todos mis reportes y experimentos en **Inteligencia Artificial**, enfocados en análisis de datos, aprendizaje automático e interpretación de resultados.
-  
-  
-## Proyectos Incluidos
+<div align="center">
 
-1. **Inclusión Financiera**  
-   - Análisis de factores que influyen en la inclusión financiera en diferentes poblaciones.  
-   - Uso de regresión, clasificación y preprocesamiento de datos para modelar tendencias.
+## 🌐 Navegação / Navegación / Navigation
 
-2. **Felicidad**  
-   - Exploración de datos relacionados con el bienestar y la satisfacción vital.  
-   - Aplicación de modelos predictivos para entender indicadores de felicidad y patrones sociales.
-
-3. **Obesidad**  
-   - Estudio de factores que contribuyen a la obesidad usando datos demográficos y conductuales.  
-   - Modelado de riesgo y análisis de correlaciones entre hábitos de vida y salud.
-
-4. **Calificaciones**  
-   - Evaluación de variables que impactan las calificaciones y el rendimiento escolar.  
-   - Aplicación de algoritmos de regresión y clasificación para predecir resultados académicos.
-
-## Herramientas y Tecnologías
-
-- **Python**: lenguaje principal para análisis y modelado.  
-- **Pandas, NumPy**: manipulación y limpieza de datos.  
-- **Scikit-learn**: regresión lineal, regresión logística, pipelines y preprocesamiento.  
-- **Matplotlib, Seaborn**: visualización de datos y análisis exploratorio.  
-- **Jupyter Notebook**: documentación de experimentos y reportes.
-
-## Objetivo del Repositorio
-
-- Consolidar aprendizaje práctico en IA aplicada.  
-- Organizar experimentos de forma clara, replicable y documentada.  
-- Demostrar aplicación de análisis de datos y aprendizaje automático en contextos reales: social, educativo, salud y económico.
+[![Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green)](#-meus-relatórios-de-inteligência-artificial)
+[![Español](https://img.shields.io/badge/Idioma-Español-red)](#-mis-reportes-de-inteligencia-artificial)
+[![English](https://img.shields.io/badge/Language-English-blue)](#-my-ai-reports)
 
 ---
 
-## **README – Português**  
-# 📊 Meus Relatórios de Inteligência Artificial
+</div>
+
+<!-- INÍCIO CONTEÚDO PORTUGUÊS -->
+## <img src="https://flagcdn.com/16x12/br.png" srcset="https://flagcdn.com/32x24/br.png 2x, https://flagcdn.com/48x36/br.png 3x" width="16" height="12" alt="Brasil"> Meus Relatórios de Inteligência Artificial
 
 Este repositório reúne todos os meus relatórios e experimentos em **Inteligência Artificial**, com foco em análise de dados, aprendizado de máquina e interpretação de resultados.
-  
-  
-## Projetos Incluídos
+
+### Projetos Incluídos
 
 1. **Inclusão Financeira**  
    - Análise de fatores que influenciam a inclusão financeira em diferentes populações.  
@@ -61,8 +35,7 @@ Este repositório reúne todos os meus relatórios e experimentos em **Inteligê
    - Avaliação de variáveis que impactam notas e desempenho escolar.  
    - Aplicação de algoritmos de regressão e classificação para prever resultados acadêmicos.
 
-
-## Ferramentas e Tecnologias
+### Ferramentas e Tecnologias
 
 - **Python**: principal linguagem para análise e modelagem.  
 - **Pandas, NumPy**: manipulação e limpeza de dados.  
@@ -70,7 +43,7 @@ Este repositório reúne todos os meus relatórios e experimentos em **Inteligê
 - **Matplotlib, Seaborn**: visualização de dados e análise exploratória.  
 - **Jupyter Notebook**: documentação dos experimentos e relatórios.
 
-## Objetivo do Repositório
+### Objetivo do Repositório
 
 - Consolidar aprendizado prático em IA aplicada.  
 - Organizar experimentos de forma clara, replicável e documentada.  
@@ -78,14 +51,51 @@ Este repositório reúne todos os meus relatórios e experimentos em **Inteligê
 
 ---
 
+<!-- INÍCIO CONTEÚDO ESPANHOL -->
+## <img src="https://flagcdn.com/16x12/es.png" srcset="https://flagcdn.com/32x24/es.png 2x, https://flagcdn.com/48x36/es.png 3x" width="16" height="12" alt="España"> Mis Reportes de Inteligencia Artificial
 
-## **README – English**  
-# 📊 My AI Reports
+Este repositorio reúne todos mis reportes y experimentos en **Inteligencia Artificial**, enfocados en análisis de datos, aprendizaje automático e interpretación de resultados.
+
+### Proyectos Incluidos
+
+1. **Inclusión Financiera**  
+   - Análisis de factores que influyen en la inclusión financiera en diferentes poblaciones.  
+   - Uso de regresión, clasificación y preprocesamiento de datos para modelar tendencias.
+
+2. **Felicidad**  
+   - Exploración de datos relacionados con el bienestar y la satisfacción vital.  
+   - Aplicación de modelos predictivos para entender indicadores de felicidad y patrones sociales.
+
+3. **Obesidad**  
+   - Estudio de factores que contribuyen a la obesidad usando datos demográficos y conductuales.  
+   - Modelado de riesgo y análisis de correlaciones entre hábitos de vida y salud.
+
+4. **Calificaciones**  
+   - Evaluación de variables que impactan las calificaciones y el rendimiento escolar.  
+   - Aplicación de algoritmos de regresión y clasificación para predecir resultados académicos.
+
+### Herramientas y Tecnologías
+
+- **Python**: lenguaje principal para análisis y modelado.  
+- **Pandas, NumPy**: manipulación y limpieza de datos.  
+- **Scikit-learn**: regresión lineal, regresión logística, pipelines y preprocesamiento.  
+- **Matplotlib, Seaborn**: visualización de datos y análisis exploratorio.  
+- **Jupyter Notebook**: documentación de experimentos y reportes.
+
+### Objetivo del Repositorio
+
+- Consolidar aprendizaje práctico en IA aplicada.  
+- Organizar experimentos de forma clara, replicable y documentada.  
+- Demostrar aplicación de análisis de datos y aprendizaje automático en contextos reales: social, educativo, salud y económico.
+
+---
+
+<!-- INÍCIO CONTEÚDO INGLÊS -->
+## <img src="https://flagcdn.com/16x12/us.png" srcset="https://flagcdn.com/32x24/us.png 2x, https://flagcdn.com/48x36/us.png 3x" width="16" height="12" alt="USA"> My AI Reports
 
 This repository gathers all my **Artificial Intelligence** reports and experiments, focusing on data analysis, machine learning, and results interpretation.
 
-
-## Projects Included
+### Projects Included
 
 1. **Financial Inclusion**  
    - Analysis of factors influencing financial inclusion across populations.  
@@ -103,7 +113,7 @@ This repository gathers all my **Artificial Intelligence** reports and experimen
    - Evaluation of variables impacting grades and school performance.  
    - Application of regression and classification algorithms to predict academic outcomes.
 
-## Tools and Technologies
+### Tools and Technologies
 
 - **Python**: main language for analysis and modeling.  
 - **Pandas, NumPy**: data manipulation and cleaning.  
@@ -111,8 +121,7 @@ This repository gathers all my **Artificial Intelligence** reports and experimen
 - **Matplotlib, Seaborn**: data visualization and exploratory analysis.  
 - **Jupyter Notebook**: documentation of experiments and reports.
 
-
-## Repository Objective
+### Repository Objective
 
 - Consolidate practical learning in applied AI.  
 - Organize experiments clearly, reproducibly, and documented.  
