@@ -6,7 +6,7 @@
 
 <br>
 
-<a href="./pt.html">
+<a href="./index.html">
   <img src="https://img.shields.io/badge/🇧🇷_Português-2A9D8F?style=for-the-badge&logo=readthedocs&logoColor=white">
 </a>
 
