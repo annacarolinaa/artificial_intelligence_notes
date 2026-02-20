@@ -4,16 +4,17 @@
 
 ## 🌐 Navegação / Navegación / Navigation
 
-[![Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green)](#-meus-relatórios-de-inteligência-artificial)
-[![Español](https://img.shields.io/badge/Idioma-Español-red)](#-mis-reportes-de-inteligencia-artificial)
-[![English](https://img.shields.io/badge/Language-English-blue)](#-my-ai-reports)
+[![Português](https://img.shields.io/badge/Idioma-Portugu%C3%AAs-green)](#portugues)
+[![Español](https://img.shields.io/badge/Idioma-Español-red)](#espanol)
+[![English](https://img.shields.io/badge/Language-English-blue)](#english)
 
 ---
 
 </div>
 
 <!-- INÍCIO CONTEÚDO PORTUGUÊS -->
-## <img src="https://flagcdn.com/16x12/br.png" srcset="https://flagcdn.com/32x24/br.png 2x, https://flagcdn.com/48x36/br.png 3x" width="16" height="12" alt="Brasil"> Meus Relatórios de Inteligência Artificial
+<a id="portugues"></a>
+## 🟢 Meus Relatórios de Inteligência Artificial
 
 Este repositório reúne todos os meus relatórios e experimentos em **Inteligência Artificial**, com foco em análise de dados, aprendizado de máquina e interpretação de resultados.
 
@@ -52,7 +53,8 @@ Este repositório reúne todos os meus relatórios e experimentos em **Inteligê
 ---
 
 <!-- INÍCIO CONTEÚDO ESPANHOL -->
-## <img src="https://flagcdn.com/16x12/es.png" srcset="https://flagcdn.com/32x24/es.png 2x, https://flagcdn.com/48x36/es.png 3x" width="16" height="12" alt="España"> Mis Reportes de Inteligencia Artificial
+<a id="espanol"></a>
+## 🔴 Mis Reportes de Inteligencia Artificial
 
 Este repositorio reúne todos mis reportes y experimentos en **Inteligencia Artificial**, enfocados en análisis de datos, aprendizaje automático e interpretación de resultados.
 
@@ -91,7 +93,8 @@ Este repositorio reúne todos mis reportes y experimentos en **Inteligencia Arti
 ---
 
 <!-- INÍCIO CONTEÚDO INGLÊS -->
-## <img src="https://flagcdn.com/16x12/us.png" srcset="https://flagcdn.com/32x24/us.png 2x, https://flagcdn.com/48x36/us.png 3x" width="16" height="12" alt="USA"> My AI Reports
+<a id="english"></a>
+## 🔵 My AI Reports
 
 This repository gathers all my **Artificial Intelligence** reports and experiments, focusing on data analysis, machine learning, and results interpretation.
 
