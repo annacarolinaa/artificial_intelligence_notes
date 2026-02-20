@@ -24,7 +24,7 @@
 
 ### 📁 Projects
 
-<a href="https://github.com/annacarolinaa/artificial_intelligence_notes/tree/main/P.%20P1%20Proyecto%20Inclusión%20Financera/P.%20P1%20692766.html">
+<a href="https://annacarolinaa.github.io/artificial_intelligence_notes/P.%20P1%20Proyecto%20Inclusión%20Financera/P.%20P1%20692766.html">
   <img src="https://img.shields.io/badge/📊_Inclusão_Financeira-264653?style=for-the-badge">
 </a>
 
