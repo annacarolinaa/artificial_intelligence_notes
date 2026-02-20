@@ -2,11 +2,11 @@
 
 <div align="center">
 
-### 🌐 Select Language / Seleccione Idioma / Selecione Idioma
+<p><strong>🌐 Select Language / Seleccione Idioma / Selecione Idioma</strong></p>
 
 <br>
 
-<a href="./index.html">
+<a href="./pt.html">
   <img src="https://img.shields.io/badge/🇧🇷_Português-2A9D8F?style=for-the-badge&logo=readthedocs&logoColor=white">
 </a>
 
@@ -22,9 +22,7 @@
 
 ---
 
-## 📁 Proyectos
-
-<div align="center">
+## 📁 Projects
 
 <a href="./P.%20P1%20Proyecto%20Inclusión%20Financera/P.%20P1%20692766.html">
   <img src="https://img.shields.io/badge/📊_Inclusión_Financiera-264653?style=for-the-badge">
