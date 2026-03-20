@@ -1,68 +1,124 @@
-# 📊 AI Reports Portfolio
+<!-- HERO -->
+<div align="center">
+
+# AI Academic Portfolio
+### Inteligência Artificial • Ciência de Dados • Relatórios Acadêmicos
+
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="260"/>
+
+<p>
+Portfólio acadêmico voltado à aplicação prática de técnicas de Ciência de Dados e Machine Learning,
+com ênfase na análise crítica de resultados e na compreensão dos modelos utilizados.
+</p>
+
+</div>
+
+---
+
+<!-- LANGUAGE -->
+<div align="center">
+
+<a href="./index.md">
+  <img src="https://img.shields.io/badge/Português-2A9D8F?style=for-the-badge">
+</a>
+<a href="./es.md">
+  <img src="https://img.shields.io/badge/Español-E63946?style=for-the-badge">
+</a>
+<a href="./en.md">
+  <img src="https://img.shields.io/badge/English-4361EE?style=for-the-badge">
+</a>
+
+
+
+
+
+</div>
+
+---
+
+<h2>
+  <span style="color:#FF5C00; margin-right:0px;">▸</span>
+  Sobre o Projeto
+  <img src="https://readme-typing-svg.herokuapp.com?duration=1000&pause=1000&color=FF5C00&vCenter=true&width=10&height=20&lines=|" />
+</h2>
+
+Este repositório reúne relatórios desenvolvidos ao longo da formação em Inteligência Artificial,
+com foco na aplicação prática de conceitos teóricos em contextos reais.
+
+Os trabalhos exploram desde etapas iniciais de análise de dados até a construção,
+avaliação e interpretação de modelos de aprendizado de máquina.
+
+---
+
+<h2>
+  <span style="color:#FF5C00; margin-right:0px;">▸</span>
+  Objetivo Acadêmico
+  <img src="https://readme-typing-svg.herokuapp.com?duration=1000&pause=1000&color=FF5C00&vCenter=true&width=10&height=20&lines=|" />
+</h2>
+
+
+Os projetos apresentados têm como finalidade:
+
+- Consolidar conceitos fundamentais de Machine Learning  
+- Aplicar técnicas de pré-processamento e análise exploratória de dados  
+- Desenvolver e comparar modelos de regressão e classificação  
+- Avaliar desempenho utilizando métricas adequadas  
+- Interpretar resultados de forma crítica e fundamentada  
+
+---
+
+## Estrutura do Curso
 
 <div align="center">
 
-<p><strong>🌐 Select Language / Seleccione Idioma / Selecione Idioma</strong></p>
+<h2>
+  <span style="color:#5cb386; margin-right:0px; font-weight: bold;">Unidade 1 - Regressão</span>
+</h2>
 
-<br>
+<p>
+Estudo de modelos preditivos voltados à estimativa de variáveis contínuas,
+com foco na análise de relações entre atributos e comportamento dos dados.
+</p>
 
-<a href="./pt.html">
-  <img src="https://img.shields.io/badge/🇧🇷_Português-2A9D8F?style=for-the-badge&logo=readthedocs&logoColor=white">
+<a href="./unidad1.md">
+  <img src="https://img.shields.io/badge/Acessar_Projetos-5cb386?style=for-the-badge">
 </a>
 
-<a href="./es.html">
-  <img src="https://img.shields.io/badge/🇪🇸_Español-E63946?style=for-the-badge&logo=readthedocs&logoColor=white">
-</a>
 
-<a href="./en.html">
-  <img src="https://img.shields.io/badge/🇺🇸_English-4361EE?style=for-the-badge&logo=readthedocs&logoColor=white">
+
+<h2>
+  <span style="color:#FF5C00; margin-right:0px; font-weight: bold;">Unidade 2 - Classificação</span>
+</h2>
+
+
+<p>
+Desenvolvimento de modelos capazes de identificar padrões e classificar dados em categorias,
+incluindo técnicas supervisionadas e métodos avançados.
+</p>
+
+<a href="./unidad2.md">
+  <img src="https://img.shields.io/badge/Acessar_Projetos-FF5C00?style=for-the-badge">
 </a>
 
 </div>
 
 ---
 
-## 📁 Projects
+<h2>
+  <span style="color:#FF5C00; margin-right:0px;">▸</span>
+  Competências desenvolvidas
+  <img src="https://readme-typing-svg.herokuapp.com?duration=1000&pause=1000&color=FF5C00&vCenter=true&width=10&height=20&lines=|" />
+</h2>
 
-<div align="center">
 
-<a href="./P.%20P1%20Proyecto%20Inclusión%20Financera/P.%20P1%20692766.html">
-  <img src="https://img.shields.io/badge/📊_Inclusão_Financeira-264653?style=for-the-badge">
-</a>
-
-<a href="./A1.2%20World%20Happiness%20Reporte/A1.2%20692766.html">
-  <img src="https://img.shields.io/badge/😊_Felicidade-2A9D8F?style=for-the-badge">
-</a>
-
-<a href="./A1.1%20Obesidad%20Reporte/A1.1%20692766.html">
-  <img src="https://img.shields.io/badge/🏥_Obesidade-E76F51?style=for-the-badge">
-</a>
-
-<a href="./A1.3%20Calificaciones%20Reporte/A1.3%20692766.html">
-  <img src="https://img.shields.io/badge/🎓_Calificaciones-3A86FF?style=for-the-badge">
-</a>
-
-</div>
+- Análise exploratória e tratamento de dados  
+- Modelagem com algoritmos de regressão e classificação  
+- Avaliação e comparação de modelos  
+- Interpretação de resultados e geração de insights  
+- Organização e documentação de projetos técnicos  
 
 ---
 
-Bem-vindo ao meu portfólio de projetos em **Inteligência Artificial aplicada**.  
-Este repositório reúne todos os meus relatórios e experimentos em **Inteligência Artificial**, com foco em análise de dados, aprendizado de máquina e interpretação de resultados.
-
-### Projetos Incluídos
-
-1. **Inclusão Financeira**  
-   - Análise de fatores que influenciam a inclusão financeira em diferentes populações.  
-   - Uso de regressão, classificação e pré-processamento de dados para modelar tendências.
-
-2. **Felicidade**  
-   - Exploração de dados relacionados ao bem-estar e satisfação de vida.  
-   - Aplicação de modelos preditivos para entender indicadores de felicidade e padrões sociais.
-
-3. **Obesidade**  
-   - Estudo de fatores que contribuem para obesidade, usando dados demográficos e comportamentais.  
-   - Modelagem de risco e análise de correlações entre hábitos de vida e saúde.
-
-4. **Calificaciones (Desempenho Escolar)**  
-   - Avaliação de variáveis que impactam notas e desempenho escolar.  
-   - Aplicação de algoritmos de regressão e classificação para prever resultados acadêmicos.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=2A9D8F&center=true&vCenter=true&width=600&lines=Projetos+Acadêmicos+em+Inteligência+Artificial;Aplicações+Práticas+de+Machine+Learning;Análise+de+Dados+e+Modelagem" />
+</p>
