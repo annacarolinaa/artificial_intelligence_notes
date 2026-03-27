@@ -27,11 +27,6 @@ com ênfase na análise crítica de resultados e na compreensão dos modelos uti
 <a href="./en.md">
   <img src="https://img.shields.io/badge/English-4361EE?style=for-the-badge">
 </a>
-
-
-
-
-
 </div>
 
 ---
@@ -80,8 +75,10 @@ Estudo de modelos preditivos voltados à estimativa de variáveis contínuas,
 com foco na análise de relações entre atributos e comportamento dos dados.
 </p>
 
+<div align="center">
+
 <a href="./unidad1.md">
-  <img src="https://img.shields.io/badge/Acessar_Projetos-5cb386?style=for-the-badge">
+  <button style="background-color: #5cb386; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Acessar Projetos</button>
 </a>
 
 
@@ -97,10 +94,47 @@ incluindo técnicas supervisionadas e métodos avançados.
 </p>
 
 <a href="./unidad2.md">
-  <img src="https://img.shields.io/badge/Acessar_Projetos-FF5C00?style=for-the-badge">
+  <button style="background-color: #FF5C00; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Acessar Projetos</button>
 </a>
 
 </div>
+
+---
+
+<div align="left">
+<h2>
+  <span style="color:#FF5C00; margin-right:0px;">▸</span>
+  Ferramentas e Tecnologias
+  <img src="https://readme-typing-svg.herokuapp.com?duration=1000&pause=1000&color=FF5C00&vCenter=true&width=10&height=20&lines=|" />
+</h2>
+
+- **Python**: principal linguagem para análise e modelagem.  
+- **Pandas, NumPy**: manipulação e limpeza de dados.  
+- **Scikit-learn**: algoritmos de regressão e classificação, pipelines e pré-processamento.  
+- **Matplotlib, Seaborn**: visualização de dados e análise exploratória.  
+- **Jupyter Notebook**: documentação de experimentos e relatórios.
+
+---
+
+<h2>
+  <span style="color:#FF5C00; margin-right:0px;">▸</span>
+  Resumos dos Projetos
+  <img src="https://readme-typing-svg.herokuapp.com?duration=1000&pause=1000&color=FF5C00&vCenter=true&width=10&height=20&lines=|" />
+</h2>
+
+### Unidade 1 - Regressão
+
+- **Inclusão Financeira**: Fatores que influenciam a inclusão financeira.  
+- **Felicidade**: Exploração de indicadores de bem-estar e satisfação.  
+- **Obesidade**: Estudo de fatores de risco para obesidade.  
+- **Desempenho Escolar**: Previsão de rendimento acadêmico.
+
+### Unidade 2 - Classificação
+
+- **Regressão Logística e Validação Cruzada**: Classificação binária com avaliação robusta.  
+- **LDA e Árvores de Decisão**: Redução dimensional e tomada de decisões.  
+- **Modelos de Ensemble, SVM e Redes Neurais**: Técnicas avançadas de classificação.  
+- **Projeto Inclusão Financeira**: Análise de inclusão financeira com modelos de classificação.
 
 ---
 
@@ -116,6 +150,8 @@ incluindo técnicas supervisionadas e métodos avançados.
 - Avaliação e comparação de modelos  
 - Interpretação de resultados e geração de insights  
 - Organização e documentação de projetos técnicos  
+
+</div>
 
 ---
 

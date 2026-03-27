@@ -16,9 +16,9 @@
 <a id="portugues"></a>
 ## 🟢 Meus Relatórios de Inteligência Artificial
 
-Este repositório reúne todos os meus relatórios e experimentos em **Inteligência Artificial**, com foco em análise de dados, aprendizado de máquina e interpretação de resultados.
+Este repositório reúne todos os meus relatórios e experimentos em **Inteligência Artificial**, com foco em análise de dados, aprendizado de máquina e interpretação de resultados, cobrindo as Unidades 1 (Regressão) e 2 (Classificação).
 
-### Projetos Incluídos
+### Unidade 1 - Regressão
 
 1. **Inclusão Financeira**  
    - Análise de fatores que influenciam a inclusão financeira em diferentes populações.  
@@ -35,6 +35,24 @@ Este repositório reúne todos os meus relatórios e experimentos em **Inteligê
 4. **Calificaciones (Desempenho Escolar)**  
    - Avaliação de variáveis que impactam notas e desempenho escolar.  
    - Aplicação de algoritmos de regressão e classificação para prever resultados acadêmicos.
+
+### Unidade 2 - Classificação
+
+1. **Regressão Logística e Validação Cruzada**  
+   - Implementação de regressão logística para problemas de classificação binária.  
+   - Uso de validação cruzada para avaliação robusta de modelos.
+
+2. **LDA e Árvores de Decisão**  
+   - Análise Discriminante Linear (LDA) para redução de dimensionalidade e classificação.  
+   - Construção e interpretação de árvores de decisão para tomada de decisões.
+
+3. **Modelos de Ensemble, SVM e Redes Neurais**  
+   - Técnicas de ensemble como Random Forest e Gradient Boosting.  
+   - Máquinas de Vetores de Suporte (SVM) e introdução a redes neurais para classificação.
+
+4. **Projeto Inclusão Financeira**  
+   - Aplicação de modelos de classificação para análise de inclusão financeira.  
+   - Comparação de algoritmos e avaliação de desempenho em dados reais.
 
 ### Ferramentas e Tecnologias
 
@@ -56,9 +74,9 @@ Este repositório reúne todos os meus relatórios e experimentos em **Inteligê
 <a id="espanol"></a>
 ## 🔴 Mis Reportes de Inteligencia Artificial
 
-Este repositorio reúne todos mis reportes y experimentos en **Inteligencia Artificial**, enfocados en análisis de datos, aprendizaje automático e interpretación de resultados.
+Este repositorio reúne todos mis reportes y experimentos en **Inteligencia Artificial**, enfocados en análisis de datos, aprendizaje automático e interpretación de resultados, cubriendo las Unidades 1 (Regresión) y 2 (Clasificación).
 
-### Proyectos Incluidos
+### Unidad 1 - Regresión
 
 1. **Inclusión Financiera**  
    - Análisis de factores que influyen en la inclusión financiera en diferentes poblaciones.  
@@ -75,6 +93,24 @@ Este repositorio reúne todos mis reportes y experimentos en **Inteligencia Arti
 4. **Calificaciones**  
    - Evaluación de variables que impactan las calificaciones y el rendimiento escolar.  
    - Aplicación de algoritmos de regresión y clasificación para predecir resultados académicos.
+
+### Unidad 2 - Clasificación
+
+1. **Regresión Logística y Validación Cruzada**  
+   - Implementación de regresión logística para problemas de clasificación binaria.  
+   - Uso de validación cruzada para evaluación robusta de modelos.
+
+2. **LDA y Árboles de Decisión**  
+   - Análisis Discriminante Lineal (LDA) para reducción de dimensionalidad y clasificación.  
+   - Construcción e interpretación de árboles de decisión para toma de decisiones.
+
+3. **Modelos de Ensamble, SVM y Redes Neuronales**  
+   - Técnicas de ensamble como Random Forest y Gradient Boosting.  
+   - Máquinas de Vectores de Soporte (SVM) e introducción a redes neuronales para clasificación.
+
+4. **Proyecto Inclusión Financiera**  
+   - Aplicación de modelos de clasificación para análisis de inclusión financiera.  
+   - Comparación de algoritmos y evaluación de desempeño en datos reales.
 
 ### Herramientas y Tecnologías
 
@@ -96,9 +132,9 @@ Este repositorio reúne todos mis reportes y experimentos en **Inteligencia Arti
 <a id="english"></a>
 ## 🔵 My AI Reports
 
-This repository gathers all my **Artificial Intelligence** reports and experiments, focusing on data analysis, machine learning, and results interpretation.
+This repository gathers all my **Artificial Intelligence** reports and experiments, focusing on data analysis, machine learning, and results interpretation, covering Units 1 (Regression) and 2 (Classification).
 
-### Projects Included
+### Unit 1 - Regression
 
 1. **Financial Inclusion**  
    - Analysis of factors influencing financial inclusion across populations.  
@@ -115,6 +151,24 @@ This repository gathers all my **Artificial Intelligence** reports and experimen
 4. **Grades**  
    - Evaluation of variables impacting grades and school performance.  
    - Application of regression and classification algorithms to predict academic outcomes.
+
+### Unit 2 - Classification
+
+1. **Logistic Regression and Cross-Validation**  
+   - Implementation of logistic regression for binary classification problems.  
+   - Use of cross-validation for robust model evaluation.
+
+2. **LDA and Decision Trees**  
+   - Linear Discriminant Analysis (LDA) for dimensionality reduction and classification.  
+   - Construction and interpretation of decision trees for decision making.
+
+3. **Ensemble Models, SVM and Neural Networks**  
+   - Ensemble techniques like Random Forest and Gradient Boosting.  
+   - Support Vector Machines (SVM) and introduction to neural networks for classification.
+
+4. **Financial Inclusion Project**  
+   - Application of classification models for financial inclusion analysis.  
+   - Comparison of algorithms and performance evaluation on real data.
 
 ### Tools and Technologies
 
