@@ -1,0 +1,9 @@
+theme: minima
+markdown: kramdown
+baseurl: ""
+url: ""
+permalink: /:path/
+
+# Configuração do GitHub Pages
+# Para ativar: Settings -> Pages -> Source: main branch, / (root) -> Save
+# Acesse: https://<seu-user>.github.io/artificial_intelligence_notes/

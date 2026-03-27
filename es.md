@@ -1,3 +1,8 @@
+---
+title: Portafolio Académico de IA (Español)
+description: Portafolio de IA con trabajos y reportes académicos.
+---
+
 <!-- HERO -->
 <div align="center">
 

@@ -1,3 +1,8 @@
+---
+title: AI Academic Portfolio
+description: Portfolio acadêmico com relatórios de IA, regressão e classificação.
+---
+
 <!-- HERO -->
 <div align="center">
 

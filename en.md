@@ -1,3 +1,8 @@
+---
+title: AI Academic Portfolio (English)
+description: Academic portfolio with reports and machine learning projects.
+---
+
 <!-- HERO -->
 <div align="center">
 
