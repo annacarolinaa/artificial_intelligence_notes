@@ -1,0 +1,51 @@
+/* Custom page styling for artificial_intelligence_notes */
+:root {
+  --bg: #fdfdfd;
+  --text: #222;
+  --muted: #4a4a4a;
+  --primary: #2a9d8f;
+}
+
+body {
+  font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.page-heading, .site-title {
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #183446;
+}
+
+h1, h2, h3 {
+  color: #1b1f23;
+  position: relative;
+}
+
+a, a:visited {
+  color: #0563c1;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  background: var(--primary);
+  border: none;
+  color: #fff;
+  border-radius: 0.35rem;
+}
+
+code, pre {
+  font-family: 'Fira Code', Menlo, Consolas, monospace;
+  background: #f4f4f4;
+}
+
+.site-header, .site-footer {
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,.08);
+}
