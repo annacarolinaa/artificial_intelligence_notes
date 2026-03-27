@@ -23,13 +23,13 @@ com ênfase na análise crítica de resultados e na compreensão dos modelos uti
 <!-- LANGUAGE -->
 <div align="center">
 
-<a href="./index.md">
+<a href="./">
   <img src="https://img.shields.io/badge/Português-2A9D8F?style=for-the-badge">
 </a>
-<a href="./es.md">
+<a href="./es/">
   <img src="https://img.shields.io/badge/Español-E63946?style=for-the-badge">
 </a>
-<a href="./en.md">
+<a href="./en/">
   <img src="https://img.shields.io/badge/English-4361EE?style=for-the-badge">
 </a>
 </div>
@@ -82,7 +82,7 @@ com foco na análise de relações entre atributos e comportamento dos dados.
 
 <div align="center">
 
-<a href="./unidad1.md">
+<a href="./unidad1/">
   <button style="background-color: #5cb386; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Acessar Projetos</button>
 </a>
 
@@ -98,7 +98,7 @@ Desenvolvimento de modelos capazes de identificar padrões e classificar dados e
 incluindo técnicas supervisionadas e métodos avançados.
 </p>
 
-<a href="./unidad2.md">
+<a href="./unidad2/">
   <button style="background-color: #FF5C00; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Acessar Projetos</button>
 </a>
 

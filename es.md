@@ -23,13 +23,13 @@ con énfasis en el análisis crítico de resultados y la comprensión de los mod
 <!-- LANGUAGE -->
 <div align="center">
 
-<a href="./index.md">
+<a href="./">
   <img src="https://img.shields.io/badge/Portugu%C3%AAs-2A9D8F?style=for-the-badge">
 </a>
-<a href="./es.md">
+<a href="./es/">
   <img src="https://img.shields.io/badge/Espa%C3%B1ol-E63946?style=for-the-badge">
 </a>
-<a href="./en.md">
+<a href="./en/">
   <img src="https://img.shields.io/badge/Ingl%C3%A9s-4361EE?style=for-the-badge">
 </a>
 </div>
@@ -80,7 +80,7 @@ Estudio de modelos predictivos enfocados en la estimación de variables continua
 con foco en el análisis de relaciones entre atributos y comportamiento de los datos.
 </p>
 
-<a href="./unit1_es.md">
+<a href="./unit1_es/">
   <button style="background-color: #5cb386; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Acceder a Proyectos</button>
 </a>
 
@@ -96,7 +96,7 @@ Desarrollo de modelos capaces de identificar patrones y clasificar datos en cate
 incluyendo técnicas supervisadas y métodos avanzados.
 </p>
 
-<a href="./unit2_es.md">
+<a href="./unit2_es/">
   <button style="background-color: #FF5C00; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Acceder a Proyectos</button>
 </a>
 

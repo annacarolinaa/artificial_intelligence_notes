@@ -23,13 +23,13 @@ with emphasis on critical analysis of results and understanding of the models us
 <!-- LANGUAGE -->
 <div align="center">
 
-<a href="./index.md">
+<a href="./">
   <img src="https://img.shields.io/badge/Portuguese-2A9D8F?style=for-the-badge">
 </a>
-<a href="./es.md">
+<a href="./es/">
   <img src="https://img.shields.io/badge/Spanish-E63946?style=for-the-badge">
 </a>
-<a href="./en.md">
+<a href="./en/">
   <img src="https://img.shields.io/badge/English-4361EE?style=for-the-badge">
 </a>
 </div>
@@ -80,7 +80,7 @@ Study of predictive models focused on estimating continuous variables,
 with focus on the analysis of relationships between attributes and data behavior.
 </p>
 
-<a href="./unit1_en.md">
+<a href="./unit1_en/">
   <button style="background-color: #5cb386; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Access Projects</button>
 </a>
 
@@ -96,7 +96,7 @@ Development of models capable of identifying patterns and classifying data into 
 including supervised techniques and advanced methods.
 </p>
 
-<a href="./unit2_en.md">
+<a href="./unit2_en/">
   <button style="background-color: #FF5C00; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Access Projects</button>
 </a>
 

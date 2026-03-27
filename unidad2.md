@@ -1,16 +1,21 @@
+---
+title: Unidade 2 - Classificação
+permalink: /unidad2/
+---
+
 # 📊 Projetos da Unidade 2 - Classificação
 
 <div align="center">
 
 ## 🌐 Navegação (Português)
 
-<a href="./unidad2.md">
+<a href="./unidad2/">
   <button style="background-color: #2A9D8F; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Português</button>
 </a>
-<a href="./unit2_es.md">
+<a href="./unit2_es/">
   <button style="background-color: #E63946; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Español</button>
 </a>
-<a href="./unit2_en.md">
+<a href="./unit2_en/">
   <button style="background-color: #4361EE; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">English</button>
 </a>
 
