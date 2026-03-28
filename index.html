@@ -9,122 +9,219 @@
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: radial-gradient(circle at top, #1a1a1a, #0f0f0f);
+    background: #0a0a0a;
     color: #eaeaea;
+    font-size: 18px;
+    line-height: 1.7;
 }
 
-/* container */
-.container {
-    max-width: 1100px;
+main {
+    max-width: 900px;
     margin: auto;
-    padding: 30px 20px;
+    padding: 60px 20px;
 }
 
-/* glass effect */
-.glass {
-    background: rgba(255,255,255,0.03);
-    backdrop-filter: blur(12px);
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 0 50px rgba(0,0,0,0.6);
+/* HERO */
+.hero {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero h1 {
+    font-size: 5rem;
+}
+
+.hero p {
+    color: #9a9a9a;
+}
+
+/* BOTÕES IDIOMA */
+.lang-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lang-buttons button {
+    border: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 999px;
+    background: #1a1a1a;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.lang-buttons button:hover {
+    background: #FF5C00;
+    transform: translateY(-2px);
+}
+
+/* esconder google feio */
+#google_translate_element {
+    display: none;
 }
 
 /* títulos */
 h2 {
-    border-left: 4px solid #FF5C00;
-    padding-left: 10px;
-    margin-top: 50px;
+    margin-top: 70px;
+    font-size: 1.6rem;
 }
 
-h3 {
-    margin-top: 20px;
-}
-
-/* linhas */
+/* divider */
 .divider {
-    height: 2px;
-    background: linear-gradient(to right, transparent, #FF5C00, transparent);
-    margin: 40px 0;
-}
-
-/* badges */
-.badges img {
-    margin: 5px;
-    transition: 0.3s;
-}
-
-.badges img:hover {
-    transform: scale(1.07);
-    filter: brightness(1.3);
-}
-
-/* hero */
-.hero img {
-    border-radius: 15px;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.7);
+    height: 1px;
+    background: #1f1f1f;
+    margin: 50px 0;
 }
 
 /* cards */
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.grid-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
 .card {
-    background: rgba(255,255,255,0.04);
     padding: 20px;
-    border-radius: 15px;
-    margin-top: 20px;
-    border: 1px solid rgba(255,255,255,0.05);
-    transition: 0.3s;
+    border-radius: 12px;
+    background: #111;
+    border: 1px solid #1f1f1f;
+    transition: 0.2s;
 }
 
 .card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    transform: translateY(-5px);
+    border-color: #FF5C00;
 }
 
-/* animação */
-.fade {
-    animation: fadeUp 0.8s ease forwards;
+/* botões */
+.btn {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.btn:hover {
+    background: #FF5C00;
 }
 
-/* mobile */
+/* grids */
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.box {
+    background: #111;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #1f1f1f;
+}
+
+.herotop{
+    margin: 200px 0px;
+}
+
 @media (max-width: 768px) {
-    .glass {
-        padding: 20px;
+    .grid-2 {
+        grid-template-columns: 1fr;
     }
 }
 </style>
+
+<!-- GOOGLE TRANSLATE -->
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'pt'}, 'google_translate_element');
+}
+
+function translateTo(lang) {
+  const select = document.querySelector(".goog-te-combo");
+  if (select) {
+    select.value = lang;
+    select.dispatchEvent(new Event("change"));
+  }
+}
+
+function toggleDropdown() {
+  const el = document.getElementById("langDropdown");
+  el.style.display = el.style.display === "block" ? "none" : "block";
+}
+
+function selectOtherLanguage() {
+  const select = document.getElementById("otherLang");
+  translateTo(select.value);
+}
+</script>
+
 </head>
 
 <body>
 
-<div class="container">
-<div class="glass fade">
+<main>
 
-<!-- HEADER -->
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC4400,100:FF8C42&height=160&section=header&text=AI%20Academic%20Portfolio&fontSize=35&fontColor=ffffff"/>
-</div>
-
-<!-- IDIOMAS -->
-<div align="center" class="badges">
-<a href="#"><img src="https://img.shields.io/badge/Idioma-Português-CC4400?style=for-the-badge&labelColor=000000"></a>
-<a href="#"><img src="https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000"></a>
-<a href="#"><img src="https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000"></a>
-</div>
-
+<section class="herotop">
 <!-- HERO -->
-<div align="center" class="hero">
-<h3>Inteligência Artificial • Ciência de Dados • Relatórios Acadêmicos</h3>
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="500"/>
+<div class="hero">
+<h1>AI Academic Portfolio</h1>
+<p>Inteligência Artificial • Ciência de Dados • Relatórios Acadêmicos</p>
+
+<div class="lang-buttons">
+<button onclick="translateTo('pt')">Português</button>
+<button onclick="translateTo('en')">English</button>
+<button onclick="translateTo('es')">Español</button>
+<button onclick="toggleDropdown()">Other</button>
+</div>
+
+<div id="google_translate_element"></div>
+
+<div class="scroll-indicator">
+  <span></span>
+</div>
+
+<style>
+.scroll-indicator {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.scroll-indicator span {
+    width: 20px;
+    height: 20px;
+    border-right: 2px solid #FF5C00;
+    border-bottom: 2px solid #FF5C00;
+    transform: rotate(45deg);
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0% { transform: rotate(45deg) translateY(0); opacity: 0.5; }
+    50% { transform: rotate(45deg) translateY(10px); opacity: 1; }
+    100% { transform: rotate(45deg) translateY(0); opacity: 0.5; }
+}
+</style>
+</section class="herotop">
+
+
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="450" style="align-items: center;"/>
+
 <p>
 Portfólio acadêmico voltado à aplicação prática de técnicas de Ciência de Dados e Machine Learning,
 com ênfase na análise crítica de resultados e na compreensão dos modelos utilizados.
@@ -133,57 +230,40 @@ com ênfase na análise crítica de resultados e na compreensão dos modelos uti
 
 <div class="divider"></div>
 
-<!-- SOBRE -->
-<h2>▌ Sobre o Projeto</h2>
+<h2>Sobre o Projeto</h2>
 
-<p align="center">
-Este repositório reúne relatórios desenvolvidos ao longo da formação em Inteligência Artificial,
-com foco na aplicação prática de conceitos teóricos em contextos reais.
+<p>
+Este repositório reúne relatórios desenvolvidos ao longo da formação em Inteligência Artificial, com foco na aplicação prática de conceitos teóricos em contextos reais.
 </p>
 
-<p align="center">
-Os trabalhos contemplam todo o ciclo de análise de dados,
-desde a exploração inicial até a construção e interpretação de modelos.
+<p>
+Os trabalhos contemplam todo o ciclo de análise de dados, desde a exploração inicial até a construção, avaliação e interpretação de modelos de aprendizado de máquina.
 </p>
 
 <div class="divider"></div>
 
-<!-- CURSO -->
-<h2>▌ Estrutura do Curso</h2>
+<h2>Estrutura do Curso</h2>
 
+<div class="grid">
 <div class="card">
 <h3>Unidade 1 — Regressão</h3>
-<p>Modelos preditivos voltados à estimativa de variáveis contínuas.</p>
-<a href="#"><img src="https://img.shields.io/badge/Acessar%20Projetos-FF5C00?style=for-the-badge&labelColor=000000"></a>
+<p>Estudo de modelos preditivos voltados à estimativa de variáveis contínuas.</p>
+<a href="./pt/unidad1.md" class="btn">Acessar Projetos</a>
 </div>
 
 <div class="card">
 <h3>Unidade 2 — Classificação</h3>
 <p>Modelos capazes de identificar padrões e classificar dados.</p>
-<a href="#"><img src="https://img.shields.io/badge/Acessar%20Projetos-1E3A8A?style=for-the-badge&labelColor=000000"></a>
+<a href="./pt/unidad2.md" class="btn">Acessar Projetos</a>
+</div>
 </div>
 
 <div class="divider"></div>
 
-<!-- TECNOLOGIAS -->
-<h2>▌ Ferramentas e Tecnologias</h2>
+<h2>Resumos dos Projetos</h2>
 
-<div align="center" class="badges">
-<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python"/>
-<img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Scikit--learn-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Seaborn-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge"/>
-</div>
-
-<div class="divider"></div>
-
-<!-- PROJETOS -->
-<h2>▌ Resumos dos Projetos</h2>
-
-<div class="card">
+<div class="grid-2">
+<div class="box">
 <h3>Unidade 1</h3>
 <ul>
 <li>Inclusão Financeira</li>
@@ -193,7 +273,7 @@ desde a exploração inicial até a construção e interpretação de modelos.
 </ul>
 </div>
 
-<div class="card">
+<div class="box">
 <h3>Unidade 2</h3>
 <ul>
 <li>Regressão Logística</li>
@@ -202,27 +282,23 @@ desde a exploração inicial até a construção e interpretação de modelos.
 <li>Inclusão Financeira</li>
 </ul>
 </div>
+</div>
 
 <div class="divider"></div>
 
-<!-- SKILLS -->
-<h2>▌ Competências</h2>
+<h2>Competências Desenvolvidas</h2>
 
-<ul>
-<li>Análise de dados</li>
-<li>Machine Learning</li>
-<li>Modelagem</li>
-<li>Interpretação</li>
-<li>Documentação técnica</li>
-</ul>
-
-<!-- FOOTER -->
-<div align="center" style="margin-top:40px;">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC4400,100:FF8C42&height=120&section=footer"/>
+<div class="grid-3">
+<div class="box">Análise exploratória de dados</div>
+<div class="box">Machine Learning</div>
+<div class="box">Modelagem</div>
+<div class="box">Interpretação</div>
+<div class="box">Documentação técnica</div>
 </div>
 
-</div>
-</div>
+</main>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
