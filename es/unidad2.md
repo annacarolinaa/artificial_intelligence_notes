@@ -1,6 +1,5 @@
 ---
 title: Unidad 2 Proyectos - Clasificación
-permalink: /unit2_es/
 ---
 
 # 📊 Proyectos de la Unidad 2 - Clasificación
@@ -9,13 +8,13 @@ permalink: /unit2_es/
 
 ## 🌐 Navegación (Español)
 
-<a href="./unidad2/">
+<a href="../pt/unidad2.md">
   <button style="background-color: #2A9D8F; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Português</button>
 </a>
-<a href="./unit2_es/">
+<a href="./unidad2.md">
   <button style="background-color: #E63946; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Español</button>
 </a>
-<a href="./unit2_en/">
+<a href="../en/unidad2.md">
   <button style="background-color: #4361EE; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">English</button>
 </a>
 

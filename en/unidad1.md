@@ -1,6 +1,5 @@
 ---
 title: Unit 1 Projects - Regression
-permalink: /unit1_en/
 ---
 
 # 📊 Unit 1 Projects - Regression
@@ -9,13 +8,13 @@ permalink: /unit1_en/
 
 ## 🌐 Navigation (English)
 
-<a href="./unidad1/">
+<a href="../pt/unidad1.md">
   <button style="background-color: #2A9D8F; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Português</button>
 </a>
-<a href="./unit1_es/">
+<a href="../es/unidad1.md">
   <button style="background-color: #E63946; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Español</button>
 </a>
-<a href="./unit1_en/">
+<a href="./unidad1.md">
   <button style="background-color: #4361EE; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">English</button>
 </a>
 
