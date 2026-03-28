@@ -17,6 +17,13 @@ with emphasis on critical analysis of results and understanding of the models us
 </p>
 
 </div>
+<link rel="stylesheet" href="/assets/css/style.css">
+<div class="container">
+  <h1>Artificial Intelligence Portfolio</h1>
+  <p>Welcome to the English version!</p>
+  <a href="/en/unidad1.md">Unit 1 - Regression</a><br>
+  <a href="/en/unidad2.md">Unit 2 - Classification</a>
+</div>
 
 ---
 

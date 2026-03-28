@@ -6,16 +6,12 @@ description: Portafolio de IA con trabajos y reportes académicos.
 <!-- HERO -->
 <div align="center">
 
-# Portafolio Académico de IA
-### Inteligencia Artificial • Ciencia de Datos • Reportes Académicos
-
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="260"/>
-
-<p>
-Portafolio académico enfocado en la aplicación práctica de técnicas de Ciencia de Datos y Machine Learning,
-con énfasis en el análisis crítico de resultados y la comprensión de los modelos utilizados.
-</p>
-
+<link rel="stylesheet" href="/assets/css/style.css">
+<div class="container">
+  <h1>Portafolio de Inteligencia Artificial</h1>
+  <p>¡Bienvenido a la versión en español!</p>
+  <a href="/es/unidad1.md">Unidad 1 - Regresión</a><br>
+  <a href="/es/unidad2.md">Unidad 2 - Clasificación</a>
 </div>
 
 ---

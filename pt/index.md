@@ -6,16 +6,12 @@ description: Portfolio acadêmico com relatórios de IA, regressão e classifica
 <!-- HERO -->
 <div align="center">
 
-# AI Academic Portfolio
-### Inteligência Artificial • Ciência de Dados • Relatórios Acadêmicos
-
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="260"/>
-
-<p>
-Portfólio acadêmico voltado à aplicação prática de técnicas de Ciência de Dados e Machine Learning,
-com ênfase na análise crítica de resultados e na compreensão dos modelos utilizados.
-</p>
-
+<link rel="stylesheet" href="/assets/css/style.css">
+<div class="container">
+  <h1>Portfólio de Inteligência Artificial</h1>
+  <p>Bem-vindo à versão em português!</p>
+  <a href="/pt/unidad1.md">Unidade 1 - Regressão</a><br>
+  <a href="/pt/unidad2.md">Unidade 2 - Classificação</a>
 </div>
 
 ---
