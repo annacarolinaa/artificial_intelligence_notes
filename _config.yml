@@ -12,3 +12,8 @@ include:
   - pt
   - es
   - en
+minima:
+  skin: classic
+  social_links: []
+  custom_css:
+    - /assets/css/style.css

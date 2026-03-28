@@ -1,0 +1,19 @@
+---
+layout: home
+title: "AI Academic Portfolio"
+description: "Portfólio acadêmico de relatórios de IA"
+---
+
+<div align="center">
+  <h1>Bem-vindo ao Portfólio de Inteligência Artificial</h1>
+  <p>Escolha seu idioma:</p>
+  <a href="/pt/"><img src="https://img.shields.io/badge/Português-2A9D8F?style=for-the-badge"></a>
+  <a href="/es/"><img src="https://img.shields.io/badge/Español-E63946?style=for-the-badge"></a>
+  <a href="/en/"><img src="https://img.shields.io/badge/English-4361EE?style=for-the-badge"></a>
+</div>
+
+<style>
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+}
+</style>
