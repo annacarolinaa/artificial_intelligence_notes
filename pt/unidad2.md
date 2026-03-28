@@ -2,65 +2,108 @@
 title: Unidade 2 - Classificação
 ---
 
-# 📊 Projetos da Unidade 2 - Classificação
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:60A5FA&height=140&section=header&text=Unidade%202%20-%20Classificação&fontSize=30&fontColor=ffffff"/>
+
+### Projetos Acadêmicos • Modelos de Classificação • Machine Learning
 
 <div align="center">
 
-## 🌐 Navegação (Português)
-
-<a href="./unidad2.md">
-  <button style="background-color: #2A9D8F; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Português</button>
-</a>
-<a href="../es/unidad2.md">
-  <button style="background-color: #E63946; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Español</button>
-</a>
-<a href="../en/unidad2.md">
-  <button style="background-color: #4361EE; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">English</button>
-</a>
-
----
+[![Português](https://img.shields.io/badge/Idioma-Português-1E3A8A?style=for-the-badge&labelColor=000000)](./unidad2.md)
+[![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000)](../en/unidad2.md)
+[![Español](https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000)](../es/unidad2.md)
 
 </div>
 
-<h2>
-  <span style="color:#FF5C00; margin-right:0px;">▸</span>
-  <span style="color:#FF5C00; margin-right:0px; font-weight: bold;">Projetos da Unidade 2 - Classificação</span>
-</h2>
-
+<p>
 Esta unidade reúne relatórios desenvolvidos com foco em modelos de classificação, aplicando técnicas avançadas de aprendizado de máquina para identificar padrões e categorizar dados.
+</p>
 
-### Projetos Incluídos
+</div>
 
-1. **Regressão Logística e Validação Cruzada**  
-   - Implementação de regressão logística para problemas de classificação binária.  
-   - Uso de validação cruzada para avaliação robusta de modelos.  
-   <a href="./Unidad%202.%20Clasificación/A2.1%20Regresión%20logística%20y%20validación%20cruzada/A2.1%20692766.html"><button style="background-color:#898989; color:white;padding:8px 14px;border:none;border-radius:5px;cursor:pointer;font-weight:bold;margin-top:8px;">Acessar Projeto</button></a>
+---
 
-2. **LDA e Árvores de Decisão**  
-   - Análise Discriminante Linear (LDA) para redução de dimensionalidade e classificação.  
-   - Construção e interpretação de árvores de decisão para tomada de decisões.  
-   <a href="./Unidad%202.%20Clasificación/A2.2%20LDA%20y%20árboles%20de%20decisión/A2.2%20692766.html"><button style="background-color:#898989;color:white;padding:8px 14px;border:none;border-radius:5px;cursor:pointer;font-weight:bold;margin-top:8px;">Acessar Projeto</button></a>
+## ▌ Projetos da Unidade 2 — Classificação_
 
-3. **Modelos de Ensemble, SVM e Redes Neurais**  
-   - Técnicas de ensemble como Random Forest e Gradient Boosting.  
-   - Máquinas de Vetores de Suporte (SVM) e introdução a redes neurais para classificação.  
-   <a href="./Unidad%202.%20Clasificación/A2.3%20Modelos%20de%20ensamble%2C%20SVM%20y%20redes%20neuronales/A2.3%20692766.html"><button style="background-color:898989;color:white;padding:8px 14px;border:none;border-radius:5px;cursor:pointer;font-weight:bold;margin-top:8px;">Acessar Projeto</button></a>
+### Regressão Logística e Validação Cruzada
 
-4. **Projeto Inclusão Financeira**  
-   - Aplicação de modelos de classificação para análise de inclusão financeira.  
-   - Comparação de algoritmos e avaliação de desempenho em dados reais.  
-   <a href="./Unidad%202.%20Clasificación/P.%20P2%20Proyecto%20Inclusión%20Financera/P.%20P2%20692766.html"><button style="background-color:#898989;color:white;padding:8px 14px;border:none;border-radius:5px;cursor:pointer;font-weight:bold;margin-top:8px;">Acessar Projeto</button></a>
+Implementação de regressão logística para problemas de classificação binária.  
+Uso de validação cruzada para avaliação robusta de modelos.
 
-### Ferramentas e Tecnologias
+<div align="left">
 
-- **Python**: principal linguagem para análise e modelagem.  
-- **Pandas, NumPy**: manipulação e limpeza de dados.  
-- **Scikit-learn**: algoritmos de classificação, validação cruzada e pipelines.  
-- **Matplotlib, Seaborn**: visualização de dados e análise exploratória.  
-- **Jupyter Notebook**: documentação dos experimentos e relatórios.
+[![Acessar Projeto](https://img.shields.io/badge/Acessar%20Projeto-1E3A8A?style=for-the-badge&labelColor=000000)](./Unidad%202.%20Clasificación/A2.1%20Regresión%20logística%20y%20validación%20cruzada/A2.1%20692766.html)
 
-### Objetivo da Unidade
+</div>
 
-- Explorar técnicas avançadas de classificação em aprendizado de máquina.  
-- Comparar diferentes algoritmos e avaliar seu desempenho.  
-- Aplicar modelos em contextos práticos, com foco na interpretação de resultados.
+---
+
+### LDA e Árvores de Decisão
+
+Análise Discriminante Linear (LDA) para redução de dimensionalidade e classificação.  
+Construção e interpretação de árvores de decisão para tomada de decisões.
+
+<div align="left">
+
+[![Acessar Projeto](https://img.shields.io/badge/Acessar%20Projeto-1E3A8A?style=for-the-badge&labelColor=000000)](./Unidad%202.%20Clasificación/A2.2%20LDA%20y%20árboles%20de%20decisión/A2.2%20692766.html)
+
+</div>
+
+---
+
+### Modelos de Ensemble, SVM e Redes Neurais
+
+Técnicas de ensemble como Random Forest e Gradient Boosting.  
+Máquinas de Vetores de Suporte (SVM) e introdução a redes neurais para classificação.
+
+<div align="left">
+
+[![Acessar Projeto](https://img.shields.io/badge/Acessar%20Projeto-1E3A8A?style=for-the-badge&labelColor=000000)](./Unidad%202.%20Clasificación/A2.3%20Modelos%20de%20ensamble%2C%20SVM%20y%20redes%20neuronales/A2.3%20692766.html)
+
+</div>
+
+---
+
+### Projeto Inclusão Financeira
+
+Aplicação de modelos de classificação para análise de inclusão financeira.  
+Comparação de algoritmos e avaliação de desempenho em dados reais.
+
+<div align="left">
+
+[![Acessar Projeto](https://img.shields.io/badge/Acessar%20Projeto-1E3A8A?style=for-the-badge&labelColor=000000)](./Unidad%202.%20Clasificación/P.%20P2%20Proyecto%20Inclusión%20Financera/P.%20P2%20692766.html)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E3A8A,100:60A5FA&height=2"/>
+
+## ▌ Ferramentas e Tecnologias_
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Scikit--learn-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge"/>
+
+</div>
+
+---
+
+## ▌ Objetivo da Unidade_
+
+- Explorar técnicas avançadas de classificação em aprendizado de máquina  
+- Comparar diferentes algoritmos e avaliar seu desempenho  
+- Aplicar modelos em contextos práticos, com foco na interpretação de resultados  
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:60A5FA&height=120&section=footer"/>
+
+</div>
