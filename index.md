@@ -2,13 +2,17 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5C00,100:FFB347&height=160&section=header&text=AI%20Academic%20Portfolio&fontSize=35&fontColor=ffffff"/>
 
-<div align="center">
+</div>
+
+<p align="center">
 
 [![Português](https://img.shields.io/badge/Idioma-Português-FF5C00?style=for-the-badge&labelColor=000000)](index.md)
 [![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000)](index_en.md)
 [![Español](https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000)](index_es.md)
 
-</div>
+</p>
+
+<div align="center">
 
 ### Inteligência Artificial • Ciência de Dados • Relatórios Acadêmicos
 
@@ -23,13 +27,15 @@ com ênfase na análise crítica de resultados e na compreensão dos modelos uti
 
 ---
 
-
 ## ▌ Sobre o Projeto_
 
-<div align="center">
+<p align="center">
 Este repositório reúne relatórios desenvolvidos ao longo da formação em Inteligência Artificial, com foco na aplicação prática de conceitos teóricos em contextos reais.
+</p>
 
+<p align="center">
 Os trabalhos contemplam todo o ciclo de análise de dados, desde a exploração inicial até a construção, avaliação e interpretação de modelos de aprendizado de máquina.
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
 
@@ -39,23 +45,19 @@ Os trabalhos contemplam todo o ciclo de análise de dados, desde a exploração 
 
 Estudo de modelos preditivos voltados à estimativa de variáveis contínuas, com foco na análise de relações entre atributos e comportamento dos dados.
 
+[![Acessar Projetos da Unidade 1](https://img.shields.io/badge/Acessar%20Projetos-Unidade%201%20Regress%C3%A3o-FF5C00?style=for-the-badge&labelColor=000000)](pt/unidad1.md)
 
+---
 
-[![Acessar Projetos da Unidade 1](https://img.shields.io/badge/Acessar%20Projetos-Unidade%201%20Regress%C3%A3o-FF5C00?style=for-the-badge&labelColor=000000)](pt/unidad1.md)   
-
- 
-   
-   
 ### **Unidade 2 — Classificação**
 
 Desenvolvimento de modelos capazes de identificar padrões e classificar dados em categorias, incluindo técnicas supervisionadas e métodos avançados.
 
-<div align="center">
+<p align="center">
 
 [![Acessar Projetos da Unidade 2](https://img.shields.io/badge/Acessar%20Projetos-Unidade%202%20Classifica%C3%A7%C3%A3o-FFB347?style=for-the-badge&labelColor=000000&color=FF5C00)](pt/unidad2.md)
 
-</div>
-</div>
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
 
@@ -79,20 +81,17 @@ Desenvolvimento de modelos capazes de identificar padrões e classificar dados e
 
 ### Unidade 1 — Regressão
 
-- **Inclusão Financeira**: Fatores que influenciam a inclusão financeira  
-- **Felicidade**: Exploração de indicadores de bem-estar e satisfação  
-- **Obesidade**: Estudo de fatores de risco  
-- **Desempenho Escolar**: Previsão de rendimento acadêmico  
-  
-
-
+- **Inclusão Financeira**  
+- **Felicidade**  
+- **Obesidade**  
+- **Desempenho Escolar**  
 
 ### Unidade 2 — Classificação
 
-- **Regressão Logística e Validação Cruzada**: Classificação binária com avaliação robusta  
-- **LDA e Árvores de Decisão**: Redução dimensional e tomada de decisões  
-- **Modelos de Ensemble, SVM e Redes Neurais**: Técnicas avançadas de classificação  
-- **Projeto Inclusão Financeira**: Aplicação de modelos de classificação  
+- **Regressão Logística e Validação Cruzada**  
+- **LDA e Árvores de Decisão**  
+- **Modelos de Ensemble, SVM e Redes Neurais**  
+- **Projeto Inclusão Financeira**  
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
 

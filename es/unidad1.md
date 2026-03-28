@@ -3,24 +3,22 @@ title: Unidad 1 - Regresión
 ---
 
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2CBF,100:C77DFF&height=140&section=header&text=Unidad%201%20-%20Regresión&fontSize=30&fontColor=ffffff"/>
+</div>
 
 ### Proyectos Académicos • Modelos de Regresión • Análisis de Datos
 
-<div align="center">
+<p align="center">
 
 [![Português](https://img.shields.io/badge/Idioma-Português-7B2CBF?style=for-the-badge&labelColor=000000)](../pt/unidad1.md)
 [![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000)](../en/unidad1.md)
 [![Español](https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000)](./unidad1.md)
 
-</div>
-
-<p>
-Esta unidad reúne informes desarrollados con enfoque en modelos de regresión, aplicando técnicas de análisis de datos y aprendizaje automático.
 </p>
 
-</div>
+<p align="center">
+Esta unidad reúne informes desarrollados con enfoque en modelos de regresión, aplicando técnicas de análisis de datos y aprendizaje automático.
+</p>
 
 ---
 

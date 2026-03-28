@@ -3,24 +3,22 @@ title: Unit 2 - Classification
 ---
 
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:60A5FA&height=140&section=header&text=Unit%202%20-%20Classification&fontSize=30&fontColor=ffffff"/>
+</div>
 
 ### Academic Projects • Classification Models • Machine Learning
 
-<div align="center">
+<p align="center">
 
 [![Português](https://img.shields.io/badge/Idioma-Português-1E3A8A?style=for-the-badge&labelColor=000000)](../pt/unidad2.md)
 [![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000)](./unidad2.md)
 [![Español](https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000)](../es/unidad2.md)
 
-</div>
-
-<p>
-This unit gathers reports focused on classification models, applying advanced machine learning techniques to identify patterns and categorize data.
 </p>
 
-</div>
+<p align="center">
+This unit gathers reports focused on classification models, applying advanced machine learning techniques to identify patterns and categorize data.
+</p>
 
 ---
 

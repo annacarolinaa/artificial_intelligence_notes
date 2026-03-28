@@ -1,68 +1,106 @@
 ---
-title: Unidad 2 Proyectos - Clasificación
+title: Unidad 2 - Clasificación
 ---
 
-# 📊 Proyectos de la Unidad 2 - Clasificación
-
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:60A5FA&height=140&section=header&text=Unidad%202%20-%20Clasificación&fontSize=30&fontColor=ffffff"/>
+</div>
 
-## 🌐 Navegación (Español)
+### Proyectos Académicos • Modelos de Clasificación • Machine Learning
 
-<a href="../pt/unidad2.md">
-  <button style="background-color: #2A9D8F; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Português</button>
-</a>
-<a href="./unidad2.md">
-  <button style="background-color: #E63946; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">Español</button>
-</a>
-<a href="../en/unidad2.md">
-  <button style="background-color: #4361EE; color: white; padding: 6px 12px; border: none; border-radius: 5px; cursor: pointer;">English</button>
-</a>
+<p align="center">
+
+[![Português](https://img.shields.io/badge/Idioma-Português-1E3A8A?style=for-the-badge&labelColor=000000)](../pt/unidad2.md)
+[![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000)](../en/unidad2.md)
+[![Español](https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000)](./unidad2.md)
+
+</p>
+
+<p align="center">
+Esta unidad reúne informes desarrollados con enfoque en modelos de clasificación, aplicando técnicas avanzadas de aprendizaje automático.
+</p>
+
+---
+
+## ▌ Proyectos de la Unidad 2 — Clasificación_
+### Regresión Logística y Validación Cruzada
+
+Implementación de regresión logística para problemas de clasificación binaria.  
+Uso de validación cruzada para evaluación robusta de modelos.
+
+<div align="left">
+
+[![Acceder al Proyecto](https://img.shields.io/badge/Acceder%20al%20Proyecto-1E3A8A?style=for-the-badge&labelColor=000000)](../pt/Unidad%202.%20Clasificación/A2.1%20Regresión%20logística%20y%20validación%20cruzada/A2.1%20692766.html)
 
 </div>
 
-<h2>
-  <span style="color:#FF5C00; margin-right:0px;">▸</span>
-  <span style="color:#FF5C00; margin-right:0px; font-weight: bold;">Proyectos de la Unidad 2 - Clasificación</span>
-</h2>
+---
 
-## 🔴 Proyectos de la Unidad 2 - Clasificación
+### LDA y Árboles de Decisión
 
-Esta unidad reúne reportes desarrollados con enfoque en modelos de clasificación, aplicando técnicas avanzadas de aprendizaje automático para identificar patrones y categorizar datos.
+Análisis Discriminante Lineal (LDA) para reducción de dimensionalidad y clasificación.  
+Construcción e interpretación de árboles de decisión para la toma de decisiones.
 
-### Proyectos Incluidos
+<div align="left">
 
-1. **[Regresión Logística y Validación Cruzada](./Unidad%202.%20Clasificación/A2.1%20Regresión%20logística%20y%20validación%20cruzada/A2.1%20692766.html)**  
-   - Implementación de regresión logística para problemas de clasificación binaria.  
-   - Uso de validación cruzada para evaluación robusta de modelos.  
-   <a href="./Unidad%202.%20Clasificación/A2.1%20Regresión%20logística%20y%20validación%20cruzada/A2.1%20692766.html"><button style="background-color: #898989; color: white; padding: 8px 14px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; margin-top: 8px;">Acceder Proyecto</button></a>
+[![Acceder al Proyecto](https://img.shields.io/badge/Acceder%20al%20Proyecto-1E3A8A?style=for-the-badge&labelColor=000000)](../pt/Unidad%202.%20Clasificación/A2.2%20LDA%20y%20árboles%20de%20decisión/A2.2%20692766.html)
 
-2. **[LDA y Árboles de Decisión](./Unidad%202.%20Clasificación/A2.2%20LDA%20y%20árboles%20de%20decisión/A2.2%20692766.html)**  
-   - Análisis Discriminante Lineal (LDA) para reducción de dimensionalidad y clasificación.  
-   - Construcción e interpretación de árboles de decisión para toma de decisiones.  
-   <a href="./Unidad%202.%20Clasificación/A2.2%20LDA%20y%20árboles%20de%20decisión/A2.2%20692766.html"><button style="background-color: #898989; color: white; padding: 8px 14px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; margin-top: 8px;">Acceder Proyecto</button></a>
+</div>
 
+---
 
-3. **[Modelos de Ensemble, SVM y Redes Neuronales](./Unidad%202.%20Clasificación/A2.3%20Modelos%20de%20ensamble%2C%20SVM%20y%20redes%20neuronales/A2.3%20692766.html)**  
-   - Técnicas de ensemble como Random Forest y Gradient Boosting.  
-   - Máquinas de Vectores de Soporte (SVM) e introducción a redes neuronales para clasificación.  
-   <a href="./Unidad%202.%20Clasificación/A2.3%20Modelos%20de%20ensamble%2C%20SVM%20y%20redes%20neuronales/A2.3%20692766.html"><button style="background-color: #898989; color: white; padding: 8px 14px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; margin-top: 8px;">Acceder Proyecto</button></a>
+### Modelos de Ensemble, SVM y Redes Neuronales
 
-4. **[Proyecto Inclusión Financiera](./Unidad%202.%20Clasificación/P.%20P2%20Proyecto%20Inclusión%20Financera/P.%20P2%20692766.html)**  
-   - Aplicación de modelos de clasificación para análisis de inclusión financiera.  
-   - Comparación de algoritmos y evaluación de desempeño en datos reales.  
-   <a href="./Unidad%202.%20Clasificación/P.%20P2%20Proyecto%20Inclusión%20Financera/P.%20P2%20692766.html"><button style="background-color: #898989; color: white; padding: 8px 14px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; margin-top: 8px;">Acceder Proyecto</button></a>
+Técnicas de ensemble como Random Forest y Gradient Boosting.  
+Máquinas de Vectores de Soporte (SVM) e introducción a redes neuronales para clasificación.
 
+<div align="left">
 
-### Herramientas y Tecnologías
+[![Acceder al Proyecto](https://img.shields.io/badge/Acceder%20al%20Proyecto-1E3A8A?style=for-the-badge&labelColor=000000)](../pt/Unidad%202.%20Clasificación/A2.3%20Modelos%20de%20ensamble%2C%20SVM%20y%20redes%20neuronales/A2.3%20692766.html)
 
-- **Python**: lenguaje principal para análisis y modelado.  
-- **Pandas, NumPy**: manipulación y limpieza de datos.  
-- **Scikit-learn**: algoritmos de clasificación, validação cruzada e pipelines.  
-- **Matplotlib, Seaborn**: visualización de datos y análisis exploratorio.  
-- **Jupyter Notebook**: documentación de experimentos y reportes.
+</div>
 
-### Objetivo de la Unidad
+---
 
-- Explorar técnicas avanzadas de clasificación en aprendizaje automático.  
-- Comparar diferentes algoritmos y evaluar su desempeño.  
-- Aplicar modelos en contextos prácticos, con foco en la interpretación de resultados.
+### Proyecto Inclusión Financiera
+
+Aplicación de modelos de clasificación para el análisis de inclusión financiera.  
+Comparación de algoritmos y evaluación de desempeño con datos reales.
+
+<div align="left">
+
+[![Acceder al Proyecto](https://img.shields.io/badge/Acceder%20al%20Proyecto-1E3A8A?style=for-the-badge&labelColor=000000)](../pt/Unidad%202.%20Clasificación/P.%20P2%20Proyecto%20Inclusión%20Financera/P.%20P2%20692766.html)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1E3A8A,100:60A5FA&height=2"/>
+
+## ▌ Herramientas y Tecnologías_
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Scikit--learn-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge"/>
+
+</div>
+
+---
+
+## ▌ Objetivo de la Unidad_
+
+- Explorar técnicas avanzadas de clasificación en machine learning  
+- Comparar diferentes algoritmos y evaluar su desempeño  
+- Aplicar modelos en contextos prácticos con enfoque en la interpretación de resultados  
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:60A5FA&height=120&section=footer"/>
+
+</div>

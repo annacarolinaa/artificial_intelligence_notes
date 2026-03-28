@@ -1,14 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5C00,100:FFB347&height=160&section=header&text=AI%20Academic%20Portfolio&fontSize=35&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC4400,100:FF8C42&height=160&section=header&text=AI%20Academic%20Portfolio&fontSize=35&fontColor=ffffff"/>
 
-<div align="center">
+</div>
 
-[![Português](https://img.shields.io/badge/Idioma-Português-FF5C00?style=for-the-badge&labelColor=000000)](index.md)
+<p align="center">
+
+[![Português](https://img.shields.io/badge/Idioma-Português-CC4400?style=for-the-badge&labelColor=000000)](index.md)
 [![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000)](index_en.md)
 [![Español](https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000)](index_es.md)
 
-</div>
+</p>
+
+<div align="center">
 
 ### Inteligencia Artificial • Ciencia de Datos • Informes Académicos
 
@@ -25,33 +29,37 @@ con énfasis en el análisis crítico de resultados y en la comprensión de los 
 
 ## ▌ Sobre el Proyecto_
 
-<div align="center">
+<p align="center">
 Este repositorio reúne informes desarrollados a lo largo de la formación en Inteligencia Artificial, con enfoque en la aplicación práctica de conceptos teóricos en contextos reales.
+</p>
 
+<p align="center">
 Los trabajos abarcan todo el ciclo de análisis de datos, desde la exploración inicial hasta la construcción, evaluación e interpretación de modelos de aprendizaje automático.
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E85D04,100:F48C06&height=2"/>
 
 ## ▌ Estructura del Curso_
 
 ### **Unidad 1 — Regresión**
 
-Estudio de modelos predictivos orientados a la estimación de variables continuas, con enfoque en el análisis de relaciones entre atributos y el comportamiento de los datos.
+Estudio de modelos predictivos orientados a la estimación de variables continuas, con enfoque en el análisis de relaciones entre atributos y comportamiento de los datos.
 
-[![Acceder a Proyectos de la Unidad 1](https://img.shields.io/badge/Acceder%20a%20Proyectos-Unidad%201%20Regresión-FF5C00?style=for-the-badge&labelColor=000000)](pt/unidad1.md)   
+[![Acceder a Proyectos Unidad 1](https://img.shields.io/badge/Acceder%20Proyectos-Unidad%201%20Regresión-CC4400?style=for-the-badge&labelColor=000000)](pt/unidad1.md)
+
+---
 
 ### **Unidad 2 — Clasificación**
 
 Desarrollo de modelos capaces de identificar patrones y clasificar datos en categorías, incluyendo técnicas supervisadas y métodos avanzados.
 
-<div align="center">
+<p align="center">
 
-[![Acceder a Proyectos de la Unidad 2](https://img.shields.io/badge/Acceder%20a%20Proyectos-Unidad%202%20Clasificación-FFB347?style=for-the-badge&labelColor=000000&color=FF5C00)](pt/unidad2.md)
+[![Acceder a Proyectos Unidad 2](https://img.shields.io/badge/Acceder%20Proyectos-Unidad%202%20Clasificación-FF8C42?style=for-the-badge&labelColor=000000&color=CC4400)](pt/unidad2.md)
 
-</div>
-</div>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E85D04,100:F48C06&height=2"/>
 
 ## ▌ Herramientas y Tecnologías_
 
@@ -73,19 +81,19 @@ Desarrollo de modelos capaces de identificar patrones y clasificar datos en cate
 
 ### Unidad 1 — Regresión
 
-- **Inclusión Financiera**: Factores que influyen en la inclusión financiera  
-- **Felicidad**: Exploración de indicadores de bienestar y satisfacción  
-- **Obesidad**: Estudio de factores de riesgo  
-- **Rendimiento Escolar**: Predicción del desempeño académico  
+- **Inclusión Financiera**  
+- **Felicidad**  
+- **Obesidad**  
+- **Rendimiento Académico**  
 
 ### Unidad 2 — Clasificación
 
-- **Regresión Logística y Validación Cruzada**: Clasificación binaria con evaluación robusta  
-- **LDA y Árboles de Decisión**: Reducción de dimensionalidad y toma de decisiones  
-- **Modelos Ensemble, SVM y Redes Neuronales**: Técnicas avanzadas de clasificación  
-- **Proyecto Inclusión Financiera**: Aplicación de modelos de clasificación  
+- **Regresión Logística y Validación Cruzada**  
+- **LDA y Árboles de Decisión**  
+- **Modelos Ensemble, SVM y Redes Neuronales**  
+- **Proyecto Inclusión Financiera**  
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E85D04,100:F48C06&height=2"/>
 
 ## ▌ Competencias Desarrolladas_
 
@@ -99,6 +107,6 @@ Desarrollo de modelos capaces de identificar patrones y clasificar datos en cate
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5C00,100:FFB347&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC4400,100:FF8C42&height=120&section=footer"/>
 
 </div>

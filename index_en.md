@@ -1,14 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5C00,100:FFB347&height=160&section=header&text=AI%20Academic%20Portfolio&fontSize=35&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC4400,100:FF8C42&height=160&section=header&text=AI%20Academic%20Portfolio&fontSize=35&fontColor=ffffff"/>
 
-<div align="center">
+</div>
 
-[![Português](https://img.shields.io/badge/Idioma-Português-FF5C00?style=for-the-badge&labelColor=000000)](index.md)
+<p align="center">
+
+[![Português](https://img.shields.io/badge/Idioma-Português-CC4400?style=for-the-badge&labelColor=000000)](index.md)
 [![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000)](index_en.md)
 [![Español](https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000)](index_es.md)
 
-</div>
+</p>
+
+<div align="center">
 
 ### Artificial Intelligence • Data Science • Academic Reports
 
@@ -25,12 +29,15 @@ with emphasis on critical analysis of results and understanding of the models us
 
 ## ▌ About the Project_
 
-<div align="center">
+<p align="center">
 This repository gathers reports developed throughout the Artificial Intelligence program, focusing on the practical application of theoretical concepts in real-world contexts.
+</p>
 
+<p align="center">
 The projects cover the entire data analysis pipeline, from initial exploration to the construction, evaluation, and interpretation of machine learning models.
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E85D04,100:F48C06&height=2"/>
 
 ## ▌ Course Structure_
 
@@ -38,20 +45,21 @@ The projects cover the entire data analysis pipeline, from initial exploration t
 
 Study of predictive models aimed at estimating continuous variables, focusing on analyzing relationships between features and data behavior.
 
-[![Access Unit 1 Projects](https://img.shields.io/badge/Access%20Projects-Unit%201%20Regression-FF5C00?style=for-the-badge&labelColor=000000)](pt/unidad1.md)   
+[![Access Unit 1 Projects](https://img.shields.io/badge/Access%20Projects-Unit%201%20Regression-CC4400?style=for-the-badge&labelColor=000000)](pt/unidad1.md)
+
+---
 
 ### **Unit 2 — Classification**
 
 Development of models capable of identifying patterns and classifying data into categories, including supervised techniques and advanced methods.
 
-<div align="center">
+<p align="center">
 
-[![Access Unit 2 Projects](https://img.shields.io/badge/Access%20Projects-Unit%202%20Classification-FFB347?style=for-the-badge&labelColor=000000&color=FF5C00)](pt/unidad2.md)
+[![Access Unit 2 Projects](https://img.shields.io/badge/Access%20Projects-Unit%202%20Classification-FF8C42?style=for-the-badge&labelColor=000000&color=CC4400)](pt/unidad2.md)
 
-</div>
-</div>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E85D04,100:F48C06&height=2"/>
 
 ## ▌ Tools and Technologies_
 
@@ -73,23 +81,23 @@ Development of models capable of identifying patterns and classifying data into 
 
 ### Unit 1 — Regression
 
-- **Financial Inclusion**: Factors influencing financial inclusion  
-- **Happiness**: Exploration of well-being and satisfaction indicators  
-- **Obesity**: Study of risk factors  
-- **Academic Performance**: Prediction of student performance  
+- **Financial Inclusion**  
+- **Happiness**  
+- **Obesity**  
+- **Academic Performance**  
 
 ### Unit 2 — Classification
 
-- **Logistic Regression and Cross Validation**: Binary classification with robust evaluation  
-- **LDA and Decision Trees**: Dimensionality reduction and decision-making  
-- **Ensemble Models, SVM and Neural Networks**: Advanced classification techniques  
-- **Financial Inclusion Project**: Application of classification models  
+- **Logistic Regression and Cross Validation**  
+- **LDA and Decision Trees**  
+- **Ensemble Models, SVM and Neural Networks**  
+- **Financial Inclusion Project**  
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E85D04,100:F48C06&height=2"/>
 
 ## ▌ Developed Skills_
 
-- Exploratory data analysis and data preprocessing  
+- Exploratory data analysis and preprocessing  
 - Modeling with regression and classification algorithms  
 - Model evaluation and comparison  
 - Result interpretation and insight generation  
@@ -99,6 +107,6 @@ Development of models capable of identifying patterns and classifying data into 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5C00,100:FFB347&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC4400,100:FF8C42&height=120&section=footer"/>
 
 </div>

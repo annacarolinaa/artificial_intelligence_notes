@@ -3,24 +3,22 @@ title: Unit 1 - Regression
 ---
 
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2CBF,100:C77DFF&height=140&section=header&text=Unit%201%20-%20Regression&fontSize=30&fontColor=ffffff"/>
+</div>
 
 ### Academic Projects • Regression Models • Data Analysis
 
-<div align="center">
+<p align="center">
 
 [![Português](https://img.shields.io/badge/Idioma-Português-7B2CBF?style=for-the-badge&labelColor=000000)](../pt/unidad1.md)
 [![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000)](./unidad1.md)
 [![Español](https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000)](../es/unidad1.md)
 
-</div>
-
-<p>
-This unit gathers reports developed with a focus on regression models, applying data analysis and machine learning techniques.
 </p>
 
-</div>
+<p align="center">
+This unit gathers reports focused on regression models, applying data analysis and machine learning techniques.
+</p>
 
 ---
 
