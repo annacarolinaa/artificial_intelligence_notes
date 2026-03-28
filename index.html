@@ -1,134 +1,228 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Academic Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css">
-    <style>
-        .markdown-body img {
-            max-width: 100%;
-        }
-        .markdown-body a {
-            text-decoration: none;
-        }
-        @media (max-width: 768px) {
-            .markdown-body {
-                padding: 20px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Academic Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(circle at top, #1a1a1a, #0f0f0f);
+    color: #eaeaea;
+}
+
+/* container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* glass effect */
+.glass {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.6);
+}
+
+/* títulos */
+h2 {
+    border-left: 4px solid #FF5C00;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* linhas */
+.divider {
+    height: 2px;
+    background: linear-gradient(to right, transparent, #FF5C00, transparent);
+    margin: 40px 0;
+}
+
+/* badges */
+.badges img {
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.badges img:hover {
+    transform: scale(1.07);
+    filter: brightness(1.3);
+}
+
+/* hero */
+.hero img {
+    border-radius: 15px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.7);
+}
+
+/* cards */
+.card {
+    background: rgba(255,255,255,0.04);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+}
+
+/* animação */
+.fade {
+    animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .glass {
+        padding: 20px;
+    }
+}
+</style>
 </head>
+
 <body>
-    <div class="container">
-        <div class="markdown-body">
-            <div align="center">
-                <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5C00,100:FFB347&height=160&section=header&text=AI%20Academic%20Portfolio&fontSize=35&fontColor=ffffff"/>
-            </div>
 
-            <p align="center">
-                <a href="index.md">
-                    <img src="https://img.shields.io/badge/Idioma-Português-FF5C00?style=for-the-badge&labelColor=000000"/>
-                </a>
-                <a href="index_en.md">
-                    <img src="https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000"/>
-                </a>
-                <a href="index_es.md">
-                    <img src="https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000"/>
-                </a>
-            </p>
+<div class="container">
+<div class="glass fade">
 
-            <div align="center">
-                <h3>Inteligência Artificial • Ciência de Dados • Relatórios Acadêmicos</h3>
-                <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="500"/>
-                <p>
-                Portfólio acadêmico voltado à aplicação prática de técnicas de Ciência de Dados e Machine Learning,
-                com ênfase na análise crítica de resultados e na compreensão dos modelos utilizados.
-                </p>
-            </div>
+<!-- HEADER -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC4400,100:FF8C42&height=160&section=header&text=AI%20Academic%20Portfolio&fontSize=35&fontColor=ffffff"/>
+</div>
 
-            <hr>
+<!-- IDIOMAS -->
+<div align="center" class="badges">
+<a href="#"><img src="https://img.shields.io/badge/Idioma-Português-CC4400?style=for-the-badge&labelColor=000000"></a>
+<a href="#"><img src="https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge&labelColor=000000"></a>
+<a href="#"><img src="https://img.shields.io/badge/Idioma-Español-FFC72C?style=for-the-badge&labelColor=000000"></a>
+</div>
 
-            <h2>▌ Sobre o Projeto_</h2>
-            <p align="center">
-            Este repositório reúne relatórios desenvolvidos ao longo da formação em Inteligência Artificial, com foco na aplicação prática de conceitos teóricos em contextos reais.
-            </p>
-            <p align="center">
-            Os trabalhos contemplam todo o ciclo de análise de dados, desde a exploração inicial até a construção, avaliação e interpretação de modelos de aprendizado de máquina.
-            </p>
+<!-- HERO -->
+<div align="center" class="hero">
+<h3>Inteligência Artificial • Ciência de Dados • Relatórios Acadêmicos</h3>
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="500"/>
+<p>
+Portfólio acadêmico voltado à aplicação prática de técnicas de Ciência de Dados e Machine Learning,
+com ênfase na análise crítica de resultados e na compreensão dos modelos utilizados.
+</p>
+</div>
 
-            <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<div class="divider"></div>
 
-            <h2>▌ Estrutura do Curso_</h2>
+<!-- SOBRE -->
+<h2>▌ Sobre o Projeto</h2>
 
-            <h3><strong>Unidade 1 — Regressão</strong></h3>
-            <p>Estudo de modelos preditivos voltados à estimativa de variáveis contínuas, com foco na análise de relações entre atributos e comportamento dos dados.</p>
-            <p>
-                <a href="pt/unidad1.md">
-                    <img src="https://img.shields.io/badge/Acessar%20Projetos-Unidade%201%20Regress%C3%A3o-FF5C00?style=for-the-badge&labelColor=000000"/>
-                </a>
-            </p>
+<p align="center">
+Este repositório reúne relatórios desenvolvidos ao longo da formação em Inteligência Artificial,
+com foco na aplicação prática de conceitos teóricos em contextos reais.
+</p>
 
-            <hr>
+<p align="center">
+Os trabalhos contemplam todo o ciclo de análise de dados,
+desde a exploração inicial até a construção e interpretação de modelos.
+</p>
 
-            <h3><strong>Unidade 2 — Classificação</strong></h3>
-            <p>Desenvolvimento de modelos capazes de identificar padrões e classificar dados em categorias, incluindo técnicas supervisionadas e métodos avançados.</p>
-            <p align="center">
-                <a href="pt/unidad2.md">
-                    <img src="https://img.shields.io/badge/Acessar%20Projetos-Unidade%202%20Classifica%C3%A7%C3%A3o-FFB347?style=for-the-badge&labelColor=000000&color=FF5C00"/>
-                </a>
-            </p>
+<div class="divider"></div>
 
-            <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<!-- CURSO -->
+<h2>▌ Estrutura do Curso</h2>
 
-            <h2>▌ Ferramentas e Tecnologias_</h2>
-            <div align="center">
-                <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python"/>
-                <img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge"/>
-                <img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge"/>
-                <img src="https://img.shields.io/badge/Scikit--learn-000000?style=for-the-badge"/>
-                <img src="https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge"/>
-                <img src="https://img.shields.io/badge/Seaborn-000000?style=for-the-badge"/>
-                <img src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge"/>
-            </div>
+<div class="card">
+<h3>Unidade 1 — Regressão</h3>
+<p>Modelos preditivos voltados à estimativa de variáveis contínuas.</p>
+<a href="#"><img src="https://img.shields.io/badge/Acessar%20Projetos-FF5C00?style=for-the-badge&labelColor=000000"></a>
+</div>
 
-            <hr>
+<div class="card">
+<h3>Unidade 2 — Classificação</h3>
+<p>Modelos capazes de identificar padrões e classificar dados.</p>
+<a href="#"><img src="https://img.shields.io/badge/Acessar%20Projetos-1E3A8A?style=for-the-badge&labelColor=000000"></a>
+</div>
 
-            <h2>▌ Resumos dos Projetos_</h2>
+<div class="divider"></div>
 
-            <h3>Unidade 1 — Regressão</h3>
-            <ul>
-                <li><strong>Inclusão Financeira</strong></li>
-                <li><strong>Felicidade</strong></li>
-                <li><strong>Obesidade</strong></li>
-                <li><strong>Desempenho Escolar</strong></li>
-            </ul>
+<!-- TECNOLOGIAS -->
+<h2>▌ Ferramentas e Tecnologias</h2>
 
-            <h3>Unidade 2 — Classificação</h3>
-            <ul>
-                <li><strong>Regressão Logística e Validação Cruzada</strong></li>
-                <li><strong>LDA e Árvores de Decisão</strong></li>
-                <li><strong>Modelos de Ensemble, SVM e Redes Neurais</strong></li>
-                <li><strong>Projeto Inclusão Financeira</strong></li>
-            </ul>
+<div align="center" class="badges">
+<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Scikit--learn-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge"/>
+</div>
 
-            <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF5C00,100:FFB347&height=2"/>
+<div class="divider"></div>
 
-            <h2>▌ Competências Desenvolvidas_</h2>
-            <ul>
-                <li>Análise exploratória e tratamento de dados</li>
-                <li>Modelagem com algoritmos de regressão e classificação</li>
-                <li>Avaliação e comparação de modelos</li>
-                <li>Interpretação de resultados e geração de insights</li>
-                <li>Organização e documentação de projetos técnicos</li>
-            </ul>
+<!-- PROJETOS -->
+<h2>▌ Resumos dos Projetos</h2>
 
-            <hr>
+<div class="card">
+<h3>Unidade 1</h3>
+<ul>
+<li>Inclusão Financeira</li>
+<li>Felicidade</li>
+<li>Obesidade</li>
+<li>Desempenho Escolar</li>
+</ul>
+</div>
 
-            <div align="center">
-                <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF5C00,100:FFB347&height=120&section=footer"/>
-            </div>
-        </div>
-    </div>
+<div class="card">
+<h3>Unidade 2</h3>
+<ul>
+<li>Regressão Logística</li>
+<li>LDA</li>
+<li>Ensemble e SVM</li>
+<li>Inclusão Financeira</li>
+</ul>
+</div>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<h2>▌ Competências</h2>
+
+<ul>
+<li>Análise de dados</li>
+<li>Machine Learning</li>
+<li>Modelagem</li>
+<li>Interpretação</li>
+<li>Documentação técnica</li>
+</ul>
+
+<!-- FOOTER -->
+<div align="center" style="margin-top:40px;">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:CC4400,100:FF8C42&height=120&section=footer"/>
+</div>
+
+</div>
+</div>
+
 </body>
 </html>
