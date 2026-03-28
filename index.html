@@ -35,10 +35,9 @@ main {
     color: #9a9a9a;
 }
 
-/* BOTÕES IDIOMA */
+/* BOTÕES */
 .lang-buttons {
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .lang-buttons button {
@@ -50,7 +49,6 @@ main {
     color: white;
     cursor: pointer;
     transition: 0.2s;
-    font-size: 14px;
 }
 
 .lang-buttons button:hover {
@@ -58,10 +56,25 @@ main {
     transform: translateY(-2px);
 }
 
-/* esconder google feio */
+/* dropdown custom */
+.lang-dropdown {
+    display: none;
+    margin-top: 10px;
+}
+
+.lang-dropdown select {
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #111;
+    color: white;
+    border: 1px solid #333;
+}
+
+/* esconder widget google */
 #google_translate_element {
     display: none;
 }
+
 
 /* títulos */
 h2 {
@@ -186,6 +199,17 @@ function selectOtherLanguage() {
 <button onclick="translateTo('en')">English</button>
 <button onclick="translateTo('es')">Español</button>
 <button onclick="toggleDropdown()">Other</button>
+</div>
+
+<div id="langDropdown" class="lang-dropdown">
+<select id="otherLang" onchange="selectOtherLanguage()">
+<option value="">Selecionar idioma</option>
+<option value="fr">Français</option>
+<option value="de">Deutsch</option>
+<option value="it">Italiano</option>
+<option value="ja">日本語</option>
+<option value="zh-CN">中文</option>
+</select>
 </div>
 
 <div id="google_translate_element"></div>
