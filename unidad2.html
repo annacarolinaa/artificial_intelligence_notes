@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidade 2 - Classificação</title>
+
+    <style>
+        :root {
+            --bg: #f8fbff;
+            --surface: #ffffff;
+            --surface-soft: #eef4fb;
+            --text: #142033;
+            --muted: #596579;
+            --line: #c9d8ea;
+            --accent: #2563eb;
+            --accent-2: #60a5fa;
+            --accent-3: #123c7a;
+            --accent-dark: #111827;
+            --shadow: 0 20px 45px rgba(17, 24, 39, 0.08);
+            --radius-lg: 1.5rem;
+            --content-width: min(74rem, calc(100vw - 2rem));
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+            background:
+                radial-gradient(circle at top, rgba(37, 99, 235, 0.12), transparent 32rem),
+                var(--bg);
+            color: var(--text);
+            font-size: clamp(1rem, 0.92rem + 0.35vw, 1.125rem);
+            line-height: 1.7;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        main {
+            width: var(--content-width);
+            margin: 0 auto;
+            padding: clamp(1rem, 2vw, 1.5rem);
+            padding-top: clamp(1.5rem, 3vw, 2rem);
+            padding-bottom: clamp(3rem, 8vw, 6rem);
+        }
+
+        section {
+            margin-bottom: clamp(2.5rem, 6vw, 5rem);
+        }
+
+        .hero-shell {
+            min-height: min(92svh, 54rem);
+            display: grid;
+            align-items: center;
+            padding-block: clamp(2rem, 8vw, 5rem);
+        }
+
+        .hero {
+            display: grid;
+            gap: 1.5rem;
+            justify-items: center;
+            text-align: center;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.45rem 0.9rem;
+            border-radius: 999px;
+            background: rgba(37, 99, 235, 0.12);
+            color: #1f4ba5;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+
+        .hero h1 {
+            margin: 0;
+            max-width: 12ch;
+            font-size: clamp(2.7rem, 8vw, 5.4rem);
+            line-height: 0.95;
+            letter-spacing: -0.05em;
+        }
+
+        .hero p {
+            margin: 0;
+            max-width: 46rem;
+            color: var(--muted);
+            font-size: clamp(1rem, 0.95rem + 0.45vw, 1.2rem);
+        }
+
+        .title-highlight {
+            font-style: italic;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2));
+            background-size: 100% 0.22em;
+            background-position: 0 92%;
+            background-repeat: no-repeat;
+        }
+
+        .title-fill {
+            display: inline-block;
+            background: var(--accent-3);
+            color: #fff;
+            padding: 0.02em 0.2em;
+            border-radius: 0.18em;
+        }
+
+        .lang-buttons,
+        .actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+
+        .lang-buttons button,
+        .btn,
+        .ghost-btn {
+            min-height: 2.75rem;
+            padding: 0.8rem 1.2rem;
+            border-radius: 999px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+            font: inherit;
+        }
+
+        .lang-buttons button {
+            border: 1px solid rgba(18, 60, 122, 0.2);
+            background: rgba(18, 60, 122, 0.08);
+            color: var(--accent-3);
+            font-weight: 700;
+        }
+
+        .lang-buttons button:hover,
+        .lang-buttons button:focus-visible {
+            background: rgba(18, 60, 122, 0.14);
+            border-color: var(--accent-3);
+            color: #0f2f61;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(18, 60, 122, 0.14);
+        }
+
+        .btn {
+            border: 0;
+            background: var(--accent-dark);
+            color: #fff;
+        }
+
+        .btn:hover,
+        .btn:focus-visible {
+            background: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(37, 99, 235, 0.22);
+        }
+
+        .ghost-btn {
+            border: 1px solid var(--line);
+            background: transparent;
+            color: var(--text);
+        }
+
+        .ghost-btn:hover,
+        .ghost-btn:focus-visible {
+            border-color: var(--accent);
+            color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .lang-dropdown {
+            display: none;
+            margin-top: 0.5rem;
+        }
+
+        .lang-dropdown select {
+            width: min(100%, 18rem);
+            padding: 0.8rem 1rem;
+            border-radius: 0.85rem;
+            background: #111827;
+            color: #fff;
+            border: 1px solid #334155;
+            font: inherit;
+        }
+
+        #google_translate_element {
+            display: none;
+        }
+
+        h2 {
+            margin: 0 0 1rem;
+            font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+            line-height: 1.15;
+        }
+
+        h3 {
+            margin: 0 0 0.75rem;
+            font-size: clamp(1.15rem, 1rem + 0.5vw, 1.45rem);
+        }
+
+        p {
+            margin: 0 0 1rem;
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            margin: clamp(2rem, 6vw, 4rem) 0;
+        }
+
+        .intro-card,
+        .card,
+        .tool-chip,
+        .objective-box {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow);
+        }
+
+        .intro-card {
+            overflow: hidden;
+        }
+
+        .intro-banner {
+            width: 100%;
+            aspect-ratio: 16 / 5;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .intro-content {
+            padding: clamp(1.25rem, 3vw, 2rem);
+        }
+
+        .grid {
+            display: grid;
+            gap: 1.25rem;
+        }
+
+        .project-grid {
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+        }
+
+        .tool-grid {
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+        }
+
+        .card {
+            padding: clamp(1.25rem, 3vw, 2rem);
+            text-align: center;
+            display: grid;
+            justify-items: center;
+            align-content: start;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent);
+        }
+
+        .card:hover h3 {
+            color: var(--accent);
+        }
+
+        .card p {
+            color: var(--muted);
+            max-width: 32ch;
+        }
+
+        .tool-chip {
+            padding: 1rem 1.1rem;
+            background: var(--surface-soft);
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .objective-box {
+            padding: clamp(1.25rem, 3vw, 2rem);
+            background: linear-gradient(180deg, rgba(96, 165, 250, 0.16), rgba(37, 99, 235, 0.05));
+        }
+
+        .objective-box ul {
+            margin: 0;
+            padding-left: 1.2rem;
+        }
+
+        .section-lead {
+            max-width: 62ch;
+            color: var(--muted);
+        }
+
+        .scroll-indicator {
+            margin-top: 0.75rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .scroll-indicator span {
+            width: 1.25rem;
+            height: 1.25rem;
+            border-right: 2px solid var(--accent);
+            border-bottom: 2px solid var(--accent);
+            transform: rotate(45deg);
+            animation: bounce 1.5s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: rotate(45deg) translateY(0);
+                opacity: 0.5;
+            }
+
+            50% {
+                transform: rotate(45deg) translateY(0.6rem);
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .lang-buttons button,
+            .btn,
+            .ghost-btn {
+                width: 100%;
+            }
+
+            .hero h1 {
+                max-width: 10ch;
+            }
+
+            .intro-banner {
+                aspect-ratio: 4 / 3;
+            }
+        }
+    </style>
+
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: "pt" }, "google_translate_element");
+        }
+
+        function translateTo(lang) {
+            const select = document.querySelector(".goog-te-combo");
+            if (select) {
+                select.value = lang;
+                select.dispatchEvent(new Event("change"));
+            }
+        }
+
+        function toggleDropdown() {
+            const el = document.getElementById("langDropdown");
+            el.style.display = el.style.display === "block" ? "none" : "block";
+        }
+
+        function selectOtherLanguage() {
+            const select = document.getElementById("otherLang");
+            if (select.value) {
+                translateTo(select.value);
+            }
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <section class="hero-shell">
+            <div class="hero">
+                <div class="eyebrow">Unidade 2 • Classificação</div>
+                <h1><span class="title-highlight">Modelos</span> para reconhecer <span class="title-fill">padrões</span></h1>
+                <p>
+                    Projetos acadêmicos voltados a classificação, machine learning e comparação de algoritmos para identificar
+                    categorias, padrões e desempenho em diferentes contextos.
+                </p>
+
+                <div class="lang-buttons">
+                    <button onclick="translateTo('pt')">Português</button>
+                    <button onclick="translateTo('en')">English</button>
+                    <button onclick="translateTo('es')">Español</button>
+                    <button onclick="toggleDropdown()">Other</button>
+                </div>
+
+                <div id="langDropdown" class="lang-dropdown">
+                    <select id="otherLang" onchange="selectOtherLanguage()">
+                        <option value="">Selecionar idioma</option>
+                        <option value="fr">Français</option>
+                        <option value="de">Deutsch</option>
+                        <option value="it">Italiano</option>
+                        <option value="ja">日本語</option>
+                        <option value="zh-CN">中文</option>
+                    </select>
+                </div>
+
+                <div class="actions">
+                    <a class="ghost-btn" href="./index.html">Voltar ao início</a>
+                    <a class="btn" href="#projetos">Ver projetos</a>
+                </div>
+
+                <div id="google_translate_element"></div>
+
+                <div class="scroll-indicator" aria-hidden="true">
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-card">
+            <img
+                class="intro-banner"
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80"
+                alt="Painel analítico representando classificação e machine learning">
+            <div class="intro-content">
+                <h2>Panorama Geral</h2>
+                <p class="section-lead">
+                    Esta unidade reúne relatórios desenvolvidos com foco em modelos de classificação, aplicando técnicas
+                    avançadas de aprendizado de máquina para identificar padrões, separar categorias e interpretar resultados.
+                </p>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="projetos">
+            <h2>Projetos da Unidade 2</h2>
+            <p class="section-lead">
+                Os projetos desta etapa exploram diferentes estratégias de classificação, validação e comparação de modelos
+                em bases com contextos práticos e analíticos.
+            </p>
+
+            <div class="grid project-grid">
+                <article class="card">
+                    <h3>Regressão Logística e Validação Cruzada</h3>
+                    <p>
+                        Implementação de regressão logística para problemas de classificação binária, com uso de validação
+                        cruzada para avaliação robusta dos modelos.
+                    </p>
+                    <a class="btn" href="./Unidad 2. Clasificación/A2.1 Regresión logística y validación cruzada/A2.1 692766.html">Acessar projeto</a>
+                </article>
+
+                <article class="card">
+                    <h3>LDA e Árvores de Decisão</h3>
+                    <p>
+                        Aplicação de Análise Discriminante Linear para redução de dimensionalidade e classificação, junto com
+                        construção e interpretação de árvores de decisão.
+                    </p>
+                    <a class="btn" href="./Unidad 2. Clasificación/A2.2 LDA y árboles de decisión/A2.2 692766.html">Acessar projeto</a>
+                </article>
+
+                <article class="card">
+                    <h3>Ensemble, SVM e Redes Neurais</h3>
+                    <p>
+                        Exploração de técnicas de ensemble como Random Forest e Gradient Boosting, além de SVM e introdução a
+                        redes neurais para classificação.
+                    </p>
+                    <a class="btn" href="./Unidad 2. Clasificación/A2.3 Modelos de ensamble, SVM y redes neuronales/A2.3 692766.html">Acessar projeto</a>
+                </article>
+
+                <article class="card">
+                    <h3>Projeto Inclusão Financeira</h3>
+                    <p>
+                        Aplicação de modelos de classificação para análise de inclusão financeira, com comparação de
+                        algoritmos e avaliação de desempenho em dados reais.
+                    </p>
+                    <a class="btn" href="./Unidad 2. Clasificación/P. P2 Proyecto Inclusión Financera/P. P2 692766.html">Acessar projeto</a>
+                </article>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+            <h2>Ferramentas e Tecnologias</h2>
+            <div class="grid tool-grid">
+                <div class="tool-chip">Python</div>
+                <div class="tool-chip">Pandas</div>
+                <div class="tool-chip">NumPy</div>
+                <div class="tool-chip">Scikit-learn</div>
+                <div class="tool-chip">Matplotlib</div>
+                <div class="tool-chip">Seaborn</div>
+                <div class="tool-chip">Jupyter</div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+            <h2>Objetivo da Unidade</h2>
+            <div class="objective-box">
+                <ul>
+                    <li>Explorar técnicas avançadas de classificação em aprendizado de máquina.</li>
+                    <li>Comparar diferentes algoritmos e avaliar seu desempenho.</li>
+                    <li>Aplicar modelos em contextos práticos, com foco na interpretação de resultados.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
