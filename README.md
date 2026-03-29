@@ -182,4 +182,4 @@ This repository gathers all my **Artificial Intelligence** reports and experimen
 
 - Consolidate practical learning in applied AI.  
 - Organize experiments clearly, reproducibly, and documented.  
-- Demonstrate application of data analysis and machine learning in real contexts: social, educational, health, and economic.
+- Demonstrate application of data analysis and machine learning in real contexts: social, educational, health, and economic.é pro readme
