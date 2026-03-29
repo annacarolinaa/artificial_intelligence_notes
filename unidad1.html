@@ -167,6 +167,30 @@
             box-shadow: 0 10px 24px rgba(255, 107, 26, 0.22);
         }
 
+        .btn-secondary {
+            background: rgba(31, 122, 140, 0.08);
+            color: var(--accent-3);
+            border: 1px solid rgba(31, 122, 140, 0.22);
+        }
+
+        .btn-secondary:hover,
+        .btn-secondary:focus-visible {
+            background: rgba(31, 122, 140, 0.14);
+            color: #145766;
+            box-shadow: 0 10px 24px rgba(31, 122, 140, 0.12);
+        }
+
+        .btn-disabled,
+        .btn-disabled:hover,
+        .btn-disabled:focus-visible {
+            background: #edf2f1;
+            color: #7a8785;
+            border: 1px dashed #bdd0cb;
+            box-shadow: none;
+            transform: none;
+            cursor: not-allowed;
+        }
+
         .ghost-btn {
             border: 1px solid var(--line);
             background: transparent;
@@ -251,9 +275,7 @@
         }
 
         .project-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
         }
 
         .tool-grid {
@@ -281,6 +303,14 @@
         .card p {
             color: var(--muted);
             max-width: 30ch;
+        }
+
+        .card-actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-top: 0.25rem;
         }
 
         .tool-chip {
@@ -447,7 +477,11 @@
                         Análise de fatores que influenciam a inclusão financeira em diferentes populações, combinando
                         pré-processamento, modelagem e leitura de tendências.
                     </p>
-                    <a class="btn" href="./Unidad 1. Regresión/P. P1 Proyecto Inclusión Financera/P. P1 692766.html">Acessar projeto</a>
+                    <div class="card-actions">
+                        <a class="btn" href="./Unidad 1. Regresión/P. P1 Proyecto Inclusión Financera/P. P1 692766.html">Acessar projeto</a>
+                        <a class="btn btn-secondary btn-disabled" href="./Unidad 1. Regresión/P. P1 Proyecto Inclusión Financera/Base de datos.zip" aria-disabled="true">Baixar CSV</a>
+                        <a class="btn btn-secondary" href="./Unidad 1. Regresión/P. P1 Proyecto Inclusión Financera/P. P1 692766.ipynb">Abrir .ipynb</a>
+                    </div>
                 </article>
 
                 <article class="card">
@@ -456,7 +490,11 @@
                         Exploração de indicadores de bem-estar e satisfação de vida por meio de modelos preditivos e análise
                         de padrões sociais presentes nos dados.
                     </p>
-                    <a class="btn" href="./Unidad 1. Regresión/A1.2 World Happiness Reporte/A1.2 692766.html">Acessar projeto</a>
+                    <div class="card-actions">
+                        <a class="btn" href="./Unidad 1. Regresión/A1.2 World Happiness Reporte/A1.2 692766.html">Acessar projeto</a>
+                        <a class="btn btn-secondary btn-disabled" href="./Unidad 1. Regresión/A1.2 World Happiness Reporte/A1.2 Felicidad y GDP.csv" aria-disabled="true">Baixar CSV</a>
+                        <a class="btn btn-secondary" href="./Unidad 1. Regresión/A1.2 World Happiness Reporte/A1.2 692766.ipynb" >Abrir .ipynb</a>
+                    </div>
                 </article>
 
                 <article class="card">
@@ -465,7 +503,11 @@
                         Estudo de fatores demográficos e comportamentais associados à obesidade, com foco em risco,
                         correlações e hábitos de vida.
                     </p>
-                    <a class="btn" href="./Unidad 1. Regresión/A1.1 Obesidad Reporte/A1.1 692766.html">Acessar projeto</a>
+                    <div class="card-actions">
+                        <a class="btn" href="./Unidad 1. Regresión/A1.1 Obesidad Reporte/A1.1 692766.html">Acessar projeto</a>
+                        <a class="btn btn-secondary btn-disabled" href="./Unidad 1. Regresión/A1.1 Obesidad Reporte/A1.1 Obesidad.csv" aria-disabled="true">Baixar CSV</a>
+                        <a class="btn btn-secondary" href="./Unidad 1. Regresión/A1.1 Obesidad Reporte/A1.1 692766.ipynb" >Abrir .ipynb</a>
+                    </div>
                 </article>
 
                 <article class="card">
@@ -474,7 +516,11 @@
                         Avaliação de variáveis que afetam o desempenho acadêmico com apoio de algoritmos de regressão e
                         classificação aplicados ao contexto educacional.
                     </p>
-                    <a class="btn" href="./Unidad 1. Regresión/A1.3 Calificaciones Reporte/A1.3 692766.html">Acessar projeto</a>
+                    <div class="card-actions">
+                        <a class="btn" href="./Unidad 1. Regresión/A1.3 Calificaciones Reporte/A1.3 692766.html">Acessar projeto</a>
+                        <a class="btn btn-secondary btn-disabled" href="./Unidad 1. Regresión/A1.3 Calificaciones Reporte/A1.3 Calificaciones.csv" aria-disabled="true">Baixar CSV</a>
+                        <a class="btn btn-secondary" href="./Unidad 1. Regresión/A1.3 Calificaciones Reporte/A1.3 692766.ipynb" >Abrir .ipynb</a>
+                    </div>
                 </article>
             </div>
         </section>
