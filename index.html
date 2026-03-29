@@ -1,188 +1,303 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Academic Portfolio</title>
 
     <style>
+        :root {
+            --bg: #fffdf9;
+            --surface: #ffffff;
+            --surface-soft: #f4f1eb;
+            --text: #171717;
+            --muted: #5f5a54;
+            --line: #c9c1b8;
+            --accent: #ff5c17;
+            --accent-dark: #1a1a1a;
+            --shadow: 0 20px 45px rgba(28, 20, 14, 0.08);
+            --radius: 1rem;
+            --radius-lg: 1.5rem;
+            --content-width: min(72rem, calc(100vw - 2rem));
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
         body {
             margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #fff;
-            color: #000;
-            font-size: 18px;
+            font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+            background:
+                radial-gradient(circle at top, rgba(255, 92, 23, 0.08), transparent 28rem),
+                var(--bg);
+            color: var(--text);
+            font-size: clamp(1rem, 0.92rem + 0.35vw, 1.125rem);
             line-height: 1.7;
         }
 
-        main {
-            max-width: 900px;
-            margin: auto;
-            padding: 60px 20px;
+        img {
+            max-width: 100%;
+            display: block;
         }
 
-        /* HERO */
+        main {
+            width: var(--content-width);
+            margin: 0 auto;
+            padding: clamp(1rem, 2vw, 1.5rem);
+            padding-top: clamp(1.5rem, 3vw, 2rem);
+            padding-bottom: clamp(3rem, 8vw, 6rem);
+        }
+
+        section {
+            margin-bottom: clamp(2.5rem, 6vw, 5rem);
+        }
+
+        .hero-shell {
+            min-height: min(100svh, 56rem);
+            display: grid;
+            align-items: center;
+            padding-block: clamp(2rem, 8vw, 6rem);
+        }
+
         .hero {
             text-align: center;
-            margin-bottom: 60px;
+            display: grid;
+            gap: 1.5rem;
+            justify-items: center;
         }
 
         .hero h1 {
-            font-size: 5rem;
+            margin: 0;
+            max-width: 12ch;
+            font-size: clamp(2.8rem, 8vw, 5.8rem);
+            line-height: 0.95;
+            letter-spacing: -0.05em;
         }
 
         .hero p {
-            color: #4f4f4f;
+            margin: 0;
+            max-width: 42rem;
+            color: var(--muted);
+            font-size: clamp(1rem, 0.95rem + 0.45vw, 1.25rem);
         }
 
-        /* BOTÕES */
         .lang-buttons {
-            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-top: 0.5rem;
         }
 
-        .lang-buttons button {
-            border: none;
-            padding: 10px 18px;
-            margin: 5px;
+        .lang-buttons button,
+        .btn {
+            border: 0;
+            min-height: 2.75rem;
+            padding: 0.8rem 1.2rem;
             border-radius: 999px;
-            background: #1a1a1a;
-            color: white;
+            background: var(--accent-dark);
+            color: #fff;
             cursor: pointer;
-            transition: 0.2s;
+            text-decoration: none;
+            transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
         }
 
-        .lang-buttons button:hover {
-            background: #FF5C00;
+        .lang-buttons button:hover,
+        .lang-buttons button:focus-visible,
+        .btn:hover,
+        .btn:focus-visible {
+            background: var(--accent);
             transform: translateY(-2px);
+            box-shadow: 0 10px 24px rgba(255, 92, 23, 0.22);
         }
 
-        /* dropdown custom */
         .lang-dropdown {
             display: none;
-            margin-top: 10px;
+            margin-top: 0.5rem;
         }
 
         .lang-dropdown select {
-            padding: 8px 12px;
-            border-radius: 10px;
+            width: min(100%, 18rem);
+            padding: 0.8rem 1rem;
+            border-radius: 0.85rem;
             background: #111;
-            color: white;
+            color: #fff;
             border: 1px solid #333;
+            font: inherit;
         }
 
-        /* esconder widget google */
         #google_translate_element {
             display: none;
         }
 
-
-        /* títulos */
         h2 {
-            margin-top: 70px;
-            font-size: 1.6rem;
+            margin: 0 0 1rem;
+            font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+            line-height: 1.15;
         }
 
-        /* divider */
+        h3 {
+            margin-top: 0;
+            font-size: clamp(1.15rem, 1rem + 0.5vw, 1.4rem);
+        }
+
+        p {
+            margin: 0 0 1rem;
+        }
+
         .divider {
             height: 1px;
-            background: #FF5C00;
-            margin: 50px 0;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            margin: clamp(2rem, 6vw, 4rem) 0;
         }
 
-        /* cards */
+        .media-card,
+        .card,
+        .box {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow);
+        }
+
+        .media-card {
+            overflow: hidden;
+        }
+
+        .hero-image {
+            width: 100%;
+            aspect-ratio: 16 / 7;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .media-content {
+            padding: clamp(1.25rem, 3vw, 2rem);
+        }
+
         .grid {
             display: grid;
-            gap: 20px;
+            gap: 1.25rem;
         }
 
-        .grid-3 {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
+        .course-grid {
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
         }
 
+        .summary-grid,
+        .skills-grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+        }
 
         .card {
-            padding: 20px;
-            border-radius: 12px;
-            background: #fff;
-            border: 1px solid #888888;
-            transition: 0.2s;
+            padding: clamp(1.25rem, 3vw, 2rem);
+            text-align: center;
+            transition: transform 0.2s ease, border-color 0.2s ease;
         }
 
         .card:hover {
-            transform: translateY(-5px);
-            border: 1px solid;
-            border-color: #FF5C00;
-
-            h3 {
-                color: #FF5C00;
-            }
+            transform: translateY(-4px);
+            border-color: var(--accent);
         }
 
-
-        /* botões */
-        .btn {
-            display: inline-block;
-            margin-top: 12px;
-            margin-bottom: 12px;
-            padding: 10px 18px;
-            border-radius: 999px;
-            background: #1a1a1a;
-            color: white;
-            text-decoration: none;
-            transition: 0.2s;
-        }
-
-        .btn:hover {
-            background: #FF5C00;
-        }
-
-        /* grids */
-        .grid-2 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
+        .card:hover h3 {
+            color: var(--accent);
         }
 
         .box {
-            background: #eeeeee;
-            padding: 15px;
-            border-radius: 10px;
-            border: 1px solid #1f1f1f;
+            padding: 1.25rem;
+            background: var(--surface-soft);
         }
 
-        .herotop {
-            margin: 200px 0px;
+        .box ul {
+            margin: 0;
+            padding-left: 1.2rem;
+        }
+
+        .skill-chip {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 5rem;
+            text-align: center;
+            font-weight: 600;
         }
 
         .sublinhado {
             font-style: italic;
-            background: linear-gradient(90deg, #FF5C00, #FF5C00);
-            background-size: 100% 4px;
-            background-position: 0 100%;
+            background: linear-gradient(90deg, var(--accent), var(--accent));
+            background-size: 100% 0.22em;
+            background-position: 0 92%;
             background-repeat: no-repeat;
         }
 
-
         .preenchimento {
-            background: #FF5C17;
-            color: black;
-            padding: 0 8px;
+            display: inline-block;
+            background: var(--accent);
+            color: #111;
+            padding: 0.02em 0.18em;
+            border-radius: 0.18em;
         }
 
-        @media (max-width: 768px) {
-            .grid-2 {
-                grid-template-columns: 1fr;
+        .section-lead {
+            max-width: 60ch;
+            color: var(--muted);
+        }
+
+        .scroll-indicator {
+            margin-top: 0.75rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .scroll-indicator span {
+            width: 1.25rem;
+            height: 1.25rem;
+            border-right: 2px solid var(--accent);
+            border-bottom: 2px solid var(--accent);
+            transform: rotate(45deg);
+            animation: bounce 1.5s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: rotate(45deg) translateY(0);
+                opacity: 0.5;
+            }
+
+            50% {
+                transform: rotate(45deg) translateY(0.6rem);
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .lang-buttons button,
+            .btn {
+                width: 100%;
+            }
+
+            .hero h1 {
+                max-width: 10ch;
+            }
+
+            .hero-image {
+                aspect-ratio: 4 / 3;
             }
         }
     </style>
 
-    <!-- GOOGLE TRANSLATE -->
     <script>
         function googleTranslateElementInit() {
-            new google.translate.TranslateElement({ pageLanguage: 'pt' }, 'google_translate_element');
+            new google.translate.TranslateElement({ pageLanguage: "pt" }, "google_translate_element");
         }
 
         function translateTo(lang) {
@@ -200,18 +315,15 @@
 
         function selectOtherLanguage() {
             const select = document.getElementById("otherLang");
-            translateTo(select.value);
+            if (select.value) {
+                translateTo(select.value);
+            }
         }
     </script>
-
 </head>
-
 <body>
-
     <main>
-
-        <section class="herotop">
-            <!-- HERO -->
+        <section class="hero-shell">
             <div class="hero">
                 <h1><span class="sublinhado">AI</span> Academic <span class="preenchimento">Portfolio</span></h1>
                 <p>Inteligência Artificial • Ciência de Dados • Relatórios Acadêmicos</p>
@@ -236,137 +348,108 @@
 
                 <div id="google_translate_element"></div>
 
-                <div class="scroll-indicator">
+                <div class="scroll-indicator" aria-hidden="true">
                     <span></span>
                 </div>
+            </div>
+        </section>
 
-                <style>
-                    .scroll-indicator {
-                        margin-top: 25px;
-                        display: flex;
-                        justify-content: center;
-                        font-weight: bold;
-                    }
-
-                    .scroll-indicator span {
-                        width: 20px;
-                        height: 20px;
-                        border-right: 2px solid #FF5C00;
-                        border-bottom: 2px solid #FF5C00;
-                        transform: rotate(45deg);
-                        animation: bounce 1.5s infinite;
-                    }
-
-                    @keyframes bounce {
-                        0% {
-                            transform: rotate(45deg) translateY(0);
-                            opacity: 0.5;
-                        }
-
-                        50% {
-                            transform: rotate(45deg) translateY(10px);
-                            opacity: 1;
-                        }
-
-                        100% {
-                            transform: rotate(45deg) translateY(0);
-                            opacity: 0.5;
-                        }
-                    }
-                </style>
-        </section class="herotop">
-
-;
-        <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="450"
-            style="width: 100%; height: 330px;" />
-
-        <p>
-            Portfólio acadêmico voltado à aplicação prática de técnicas de Ciência de Dados e Machine Learning,
-            com ênfase na análise crítica de resultados e na compreensão dos modelos utilizados.
-        </p>
-        </div>
+        <section class="media-card">
+            <img
+                class="hero-image"
+                src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"
+                alt="Animação representando tecnologia e inteligência artificial">
+            <div class="media-content">
+                <p>
+                    Portfólio acadêmico voltado à aplicação prática de técnicas de Ciência de Dados e Machine Learning,
+                    com ênfase na análise crítica de resultados e na compreensão dos modelos utilizados.
+                </p>
+            </div>
+        </section>
 
         <div class="divider"></div>
 
-        <h2><span style="color: #FF5C17;">▶</span> Sobre o Projeto</h2>
-
-        <p>
-            Este repositório reúne relatórios desenvolvidos ao longo da formação em Inteligência Artificial, com foco na
-            aplicação prática de conceitos teóricos em contextos reais.
-        </p>
-
-        <p>
-            Os trabalhos contemplam todo o ciclo de análise de dados, desde a exploração inicial até a construção,
-            avaliação e interpretação de modelos de aprendizado de máquina.
-        </p>
+        <section>
+            <h2><span style="color: #FF5C17;">▶</span> Sobre o Projeto</h2>
+            <p class="section-lead">
+                Este repositório reúne relatórios desenvolvidos ao longo da formação em Inteligência Artificial, com foco
+                na aplicação prática de conceitos teóricos em contextos reais.
+            </p>
+            <p class="section-lead">
+                Os trabalhos contemplam todo o ciclo de análise de dados, desde a exploração inicial até a construção,
+                avaliação e interpretação de modelos de aprendizado de máquina.
+            </p>
+        </section>
 
         <div class="divider"></div>
 
         <section id="estrutura">
             <h2><span style="color: #FF5C17;">▶</span> Estrutura do Curso</h2>
 
-            <div class="grid" style="gap: 40px;">
-                <div class="card"
-                    style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px 80px;">
+            <div class="grid course-grid">
+                <article class="card">
                     <h3>Unidade 1 — Regressão</h3>
-                    <p>Estudo de modelos preditivos voltados à estimativa de variáveis contínuas, com foco na análise de
-                        relações entre atributos e comportamento dos dados.</p>
+                    <p>
+                        Estudo de modelos preditivos voltados à estimativa de variáveis contínuas, com foco na análise de
+                        relações entre atributos e comportamento dos dados.
+                    </p>
                     <a href="./pt/unidad1.md" class="btn">Acessar Projetos</a>
+                </article>
+
+                <article class="card">
+                    <h3>Unidade 2 — Classificação</h3>
+                    <p>
+                        Desenvolvimento de modelos capazes de identificar padrões e classificar dados em categorias,
+                        incluindo técnicas supervisionadas e métodos avançados.
+                    </p>
+                    <a href="./pt/unidad2.md" class="btn">Acessar Projetos</a>
+                </article>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+            <h2><span style="color: #FF5C17;">▶</span> Resumos dos Projetos</h2>
+
+            <div class="summary-grid">
+                <div class="box">
+                    <h3>Unidade 1</h3>
+                    <ul>
+                        <li>Inclusão Financeira</li>
+                        <li>Felicidade</li>
+                        <li>Obesidade</li>
+                        <li>Desempenho Escolar</li>
+                    </ul>
                 </div>
 
-                <div class="card"
-                    style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px 80px;">
-                    <h3>Unidade 2 — Classificação</h3>
-                    <p>Desenvolvimento de modelos capazes de identificar padrões e classificar dados em categorias,
-                        incluindo técnicas supervisionadas e métodos avançados.</p>
-                    <a href="./pt/unidad2.md" class="btn">Acessar Projetos</a>
+                <div class="box">
+                    <h3>Unidade 2</h3>
+                    <ul>
+                        <li>Regressão Logística</li>
+                        <li>LDA</li>
+                        <li>Ensemble e SVM</li>
+                        <li>Inclusão Financeira</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-
         <div class="divider"></div>
 
-        <h2><span style="color: #FF5C17;">▶</span> Resumos dos Projetos</h2>
+        <section>
+            <h2><span style="color: #FF5C17;">▶</span> Competências Desenvolvidas</h2>
 
-        <div class="grid-2">
-            <div class="box">
-                <h3>Unidade 1</h3>
-                <ul>
-                    <li>Inclusão Financeira</li>
-                    <li>Felicidade</li>
-                    <li>Obesidade</li>
-                    <li>Desempenho Escolar</li>
-                </ul>
+            <div class="skills-grid">
+                <div class="box skill-chip">Análise exploratória de dados</div>
+                <div class="box skill-chip">Machine Learning</div>
+                <div class="box skill-chip">Modelagem</div>
+                <div class="box skill-chip">Interpretação</div>
+                <div class="box skill-chip">Documentação técnica</div>
             </div>
-
-            <div class="box">
-                <h3>Unidade 2</h3>
-                <ul>
-                    <li>Regressão Logística</li>
-                    <li>LDA</li>
-                    <li>Ensemble e SVM</li>
-                    <li>Inclusão Financeira</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="divider"></div>
-
-        <h2><span style="color: #FF5C17;">▶</span> Competências Desenvolvidas</h2>
-
-        <div class="grid-3">
-            <div class="box">Análise exploratória de dados</div>
-            <div class="box">Machine Learning</div>
-            <div class="box">Modelagem</div>
-            <div class="box">Interpretação</div>
-            <div class="box">Documentação técnica</div>
-        </div>
-
+        </section>
     </main>
 
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
-
 </html>
